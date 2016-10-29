@@ -1,0 +1,68 @@
+学生管理系统(精简版) 
+项目中将不会有任何的注释 所有的注释在这个文档里说明
+
+	================================学生个人信息================================
+	
+	--表设计
+	字段名称									对应实体字段名															
+	------------学籍基本信息
+	学籍号										studentId								
+	姓名										studentName								
+	英文名										studentEnglishName						
+	年级										studentGrade
+	院系										studentFaculty
+	专业										studentMajor
+	专业方向									studentMajorDirection
+	学历										studentRecord
+	培养类型									studentEductionStyle
+	校区										studentCampus
+	学制										studentLengthOfSchooling
+	是否在校									studentIsInSchool
+	是否在籍									studentIsInNation
+	学号										studentNoId
+	班级										studentClass
+	历史班级									studentHistoryClass
+	入校时间									studentInSchoolTime
+	预毕业时间									studentGradeSchoolTime
+	曾用名										studentOldUsingName
+	民族										studentNation
+	政治面貌									studentPoliticalStatus
+	出生年月									studentBirthDate
+	身份证										studentIdCard
+	籍贯										studentNativePlace
+	国籍										studentNationality
+	婚姻状况									studentIsMarried
+	------------联系方式	
+	电子邮件									studentEmail
+	通讯地址									studentAddress
+	通讯地址电话								studentAddressTelephone
+	通讯地址邮编								studentZipCode
+			
+	================================学生个人信息================================
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
