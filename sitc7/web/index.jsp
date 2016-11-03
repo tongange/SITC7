@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2016/10/29 10-029-29
-  Time: 10:13
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>index</title>
+    <jsp:include page="/include/include_easyui15.jsp"></jsp:include>
+</head>
+<body class="easyui-layout">
+    <jsp:include page="/include/navigator.jsp"></jsp:include>
+<div data-options="region:'center',title:'index'" style="padding:5px;background:#eee;">
+</div>
+</body>
 </html>
+
+
+
+

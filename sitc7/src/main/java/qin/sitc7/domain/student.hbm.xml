@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="qin.sitc7.domain" auto-import="true" default-lazy="false">
+
+    <class name="Student" table="qin_student">
+        <id name="id" column="student_id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="studentAddress" length="40"></property>
+        <property name="studentAddressTelephone" length="18"></property>
+        <property name="studentBirthDate" type="date"></property>
+        <property name="studentClass" length="10"></property>
+        <property name="studentEmail" length="30"></property>
+        <property name="studentEnglishName" length="15"></property>
+        <property name="studentFaculty" length="30"></property>
+        <property name="studentGender" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">qin.sitc7.domain.StudentGender</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+
+        <property name="studentGrade" length="7"></property>
+        <property name="studentGradeSchoolTime" type="date"></property>
+        <property name="studentHistoryClass"></property>
+        <property name="studentId" length="10"></property>
+        <property name="studentIdCard" length="19"></property>
+        <property name="studentInSchoolTime" type="date"></property>
+        <property name="studentIsInNation" type="boolean"></property>
+        <property name="studentIsInSchool" type="boolean"></property>
+        <property name="studentIsMarried" length="5"></property>
+        <property name="studentLengthOfSchooling" length="5"></property>
+        <property name="studentMajorDirection" length="30"></property>
+        <property name="studentName" length="20"></property>
+        <property name="studentNation" length="3"></property>
+        <property name="studentNoId" length="3"></property>
+        <property name="studentOldUsingName" length="20"></property>
+        <property name="studentZipCode" length="15"></property>
+
+        <!-- studentCampus -->
+        <join table="qin_join_studentCampus">
+            <key column="join_studentCampus1" foreign-key="fk_join_studentCampus1"></key>
+            <many-to-one name="studentCampus" foreign-key="fk_join_studentCampus2"
+                         column="join_studentCampus2" class="StudentCampus"/>
+        </join>
+
+        <!-- studentMajor -->
+        <join table="qin_join_studentMajor">
+            <key column="join_studentMajor1" foreign-key="fk_join_studentMajor1"></key>
+            <many-to-one name="studentMajor" foreign-key="fk_join_studentMajor2"
+                         column="join_studentMajor2" class="StudentMajor"></many-to-one>
+        </join>
+
+        <!-- studentPoliticalStatus -->
+        <join table="qin_join_stuPoliticalStatus">
+            <key column="join_stuPoliticalStatus1" foreign-key="fk_join_stuPoliticalStatus1"></key>
+            <many-to-one name="studentPoliticalStatus" foreign-key="fk_join_studentMajor2"
+                         column="join_stuPoliticalStatus2" class="StudentPoliticalStatus"></many-to-one>
+        </join>
+
+        <!-- studentRecord -->
+        <join table="qin_join_studentRecord">
+            <key column="join_studentRecord1" foreign-key="fk_join_studentRecord1"></key>
+            <many-to-one name="studentRecord" foreign-key="fk_join_studentMajor2"
+                         column="join_studentRecord2" class="StudentRecord"></many-to-one>
+        </join>
+
+        <!-- studentNativePlace -->
+        <join table="qin_join_nativePlace">
+            <key column="join_nativePlace1" foreign-key="fk_join_nativePlace1"></key>
+            <many-to-one name="studentNativePlace" foreign-key="fk_join_nativePlace2"
+                         column="join_nativePlace2" class="StudentNativePlace"></many-to-one>
+        </join>
+
+    </class>
+
+    <!-- 校区 -->
+    <class name="StudentCampus" table="qin_studentCampus">
+        <id name="id" column="campus_id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="studentCampusName" length="40"></property>
+
+        <set name="studentSet" table="qin_set_studentCampus">
+            <key column="set_student_campus" foreign-key="fk_set_student_campus"></key>
+            <one-to-many class="Student"/>
+        </set>
+    </class>
+
+    <!-- 专业 -->
+    <class name="StudentMajor" table="qin_studentMajor">
+        <id name="id" column="major_id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="studentMajorName" length="30"></property>
+        <property name="studentMajorDescription" length="3000"></property>
+
+        <set name="studentSet" table="qin_set_studentMajor">
+            <key column="set_student_major" foreign-key="fk_set_student_major"></key>
+            <one-to-many class="Student"/>
+        </set>
+    </class>
+
+    <!-- 籍贯 -->
+    <class name="StudentNativePlace" table="qin_studentNativePlace">
+        <id name="id" column="nativePlace_id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="studentNativePlaceName" length="5"></property>
+
+        <set name="studentSet" table="qin_set_nativePlace">
+            <key column="set_student_ativePlace" foreign-key="fk_set_student_ativePlace"></key>
+            <one-to-many class="Student"/>
+        </set>
+    </class>
+
+    <!-- 政治面貌 -->
+    <class name="StudentPoliticalStatus" table="qin_studentPoliticalStatus">
+        <id name="id" column="politicalStatus_id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="studentPoliticalStatusName" length="5"></property>
+
+        <set name="studentSet" table="qin_set_politicalStatus">
+            <key column="set_student_politicalStatus" foreign-key="fk_set_stu_politicalStatus"></key>
+            <one-to-many class="Student"/>
+        </set>
+    </class>
+
+    <!-- 学历 -->
+    <class name="StudentRecord" table="qin_studentRecord">
+        <id name="id" column="record_id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="studentRecordName" length="5"></property>
+
+        <set name="studentSet" table="qin_set_record">
+            <key column="set_student_record" foreign-key="fk_set_student_record"></key>
+            <one-to-many class="Student"/>
+        </set>
+
+    </class>
+
+</hibernate-mapping>

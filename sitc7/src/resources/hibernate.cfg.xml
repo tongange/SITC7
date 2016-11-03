@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!--<mapping class="qin.sitc7.domain.SimpleStudent"></mapping>-->
+        <mapping resource="qin/sitc7/domain/student.hbm.xml"></mapping>
+        <mapping resource="qin/sitc7/domain/student-course.hbm.xml"></mapping>
+
+    </session-factory>
+
+</hibernate-configuration>

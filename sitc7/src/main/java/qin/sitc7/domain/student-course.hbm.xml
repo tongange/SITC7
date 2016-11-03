@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="qin.sitc7.domain" auto-import="true" default-lazy="false">
+
+    <class name="StudentCourse" table="qin_studentCourse">
+        <id name="id" column="student_course_id">
+            <generator class="uuid.hex"/>
+        </id>
+
+        <property name="courseId" length="5" type="integer"></property>
+        <property name="courseCode" length="12"></property>
+        <property name="courseName" length="30"></property>
+
+        <!-- courseClassify -->
+        <property name="courseClassify" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">qin.sitc7.domain.CourseType</param>
+                <param name="type">12</param>
+            </type>
+        </property>
+
+        <property name="courseCredit" type="double"></property>
+        <property name="courseFinalExam" type="double"></property>
+        <property name="courseResit" type="double"></property>
+        <property name="courseFinalScore" type="double"></property>
+
+        <map name="courseTerm" table="qin_studentScore_term">
+            <key column="key_stu_courseTerm" foreign-key="fk_key_stu_courseTerm"></key>
+            <!-- hbm to key -->
+            <index column="index_stu_courseTerm" type="java.lang.String"/>
+            <!-- value -->
+            <element column="element_stu_courseTerm" type="integer"/>
+        </map>
+    </class>
+
+</hibernate-mapping>
