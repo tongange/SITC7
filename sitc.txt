@@ -1,49 +1,219 @@
 学生管理系统(精简版) 
 项目中将不会有任何的注释 所有的注释在这个文档里说明
 
+先讲一下学生管理系统精简版里的所有功能
+
+		功能						大致描述								访问页面/student/?.jsp
+	-----------------------------------------------------------------------------------------------------------------------------------------------
+    |	我的课表					查看学生的课表							courseTableForStd.jsp
+	|	我的成绩					所有学期成绩,  重修记录					personGrade.jsp
+	|	学生个人信息				查看学生信息							stdDetail.jsp
+	|	学生离校信息				查看学生毕业时的信息					stdSchoolLeaving.jsp
+	|	学生个人计划				查看课程学分以及考核					stdTeachPlanInfo.jsp
+	-----------------------------------------------------------------------------------------------------------------------------------------------
+
 	================================学生个人信息================================
 	
 	--表设计
-	字段名称									对应实体字段名															
+	字段名称						对应实体字段名															
 	------------学籍基本信息
-	学籍号										studentId								
-	姓名										studentName								
-	英文名										studentEnglishName						
-	年级										studentGrade
-	院系										studentFaculty
-	专业										studentMajor
-	专业方向									studentMajorDirection
-	学历										studentRecord
-	培养类型									studentEductionStyle
-	校区										studentCampus
-	学制										studentLengthOfSchooling
-	是否在校									studentIsInSchool
-	是否在籍									studentIsInNation
-	学号										studentNoId
-	班级										studentClass
-	历史班级									studentHistoryClass
-	入校时间									studentInSchoolTime
-	预毕业时间									studentGradeSchoolTime
-	曾用名										studentOldUsingName
-	民族										studentNation
-	政治面貌									studentPoliticalStatus
-	出生年月									studentBirthDate
-	身份证										studentIdCard
-	籍贯										studentNativePlace
-	国籍										studentNationality
-	婚姻状况									studentIsMarried
+	学籍号							studentId;								
+	姓名							studentName;								
+	英文名							studentEnglishName;						
+	年级							studentGrade;
+	院系							studentFaculty;
+	专业							studentMajor;			  	StudentMajor 表(id, name, description)[软件工程, 珠宝设计, 网络管理, 人力资源]
+	专业方向						studentMajorDirection;
+	学历							studentRecord   ;      	  	StudentRecord 表(id, name)[中专, 大专, 本科]
+	校区							studentCampus	;			StudentCampus 表(全国校区表 id, name)[校区]
+	学制							studentLengthOfSchooling;
+	是否在校						studentIsInSchool;
+	是否在籍						studentIsInNation;
+	学号							studentNoId;
+	班级							studentClass;
+	历史班级						studentHistoryClass;
+	入校时间						studentInSchoolTime;
+	预毕业时间						studentGradeSchoolTime;
+	曾用名							studentOldUsingName;
+	民族							studentNation;
+	政治面貌						studentPoliticalStatus	;	StudentPoliticalStatus 表(id, status)[群众, 团员]
+	出生年月						studentBirthDate;
+	身份证							studentIdCard;
+	籍贯							studentNativePlace	;		StudentNativePlace 表(id, name)[上海, 中国等]
+	//国籍							studentNationality;
+	婚姻状况						studentIsMarried;
+	性别							studentGender  		;		StudentGender 表(id, gender)[男, 女]
 	------------联系方式	
-	电子邮件									studentEmail
-	通讯地址									studentAddress
-	通讯地址电话								studentAddressTelephone
-	通讯地址邮编								studentZipCode
-			
+	电子邮件						studentEmail;
+	通讯地址						studentAddress;
+	通讯地址电话					studentAddressTelephone;
+	通讯地址邮编					studentZipCode;
+	
 	================================学生个人信息================================
 	
+	================================我的课表================================	
 	
+	页面元素
+	---------------------------------------------------------------------------------------------------------------------------------------------
+	起始周 [1-19]																			学年[2010, 2011, 2012] 学期1, 2 button_切换学期
+	---------------------------------------------------------------------------------------------------------------------------------------------
+	星期节次	第一节 第二节 ........................................................................................................第十二节
+	星期一
+	星期二
+	星期三
+	星期四
+	星期五
+	星期六
+	星期日
+	---------------------------------------------------------------------------------------------------------------------------------------------
+	课程代码	课程名称	学分	课程序号	教师	第一次上课时间	备注
+	---------------------------------------------------------------------------------------------------------------------------------------------
+	
+	================================我的课表================================	
+	
+	================================我的成绩================================	
+	
+	表设计:
+	字段								字段类型						实体类字段名称
+	-------------------------------------------------------------------------------------------------------------------------	
+	课程序号			private			Integer							courseId		
+	课程代码			private			String							courseCode
+	课程名称			private			String							courseName
+	课程类别			private			Enum							courseClassify
+	学分				private			Double							courseCredit
+	期末总评			private			Double							courseFinalExam
+	补考成绩			private			Double							courseResit
+	最终成绩			private			Double							courseFinalScore	
+	所属学期			private			Map<String, Integer>			courseTerm
+	
+	==
+	课程类别:
+	任意选修(公共)
+	专业必修
+	公共必修
+	限定选修
+	
+	================================我的成绩================================	
+	
+	================================学生个人信息================================
+	================================学生个人信息================================
+	
+	================================学生离校信息================================
+	================================学生离校信息================================
+	
+    ================================学生个人计划================================
+    ================================学生个人计划================================
+	
+	
+SitcPrint类:
+	定义了一个print7变量， 这个变量用于实现输出功能， 这个输出类里面封装了配置文件变量
+
+StudentMajor类中定义了一个带参数的构造函数和默认构造函数
+如果不提供默认构造函数则在使用hibernate生成表时将会生成失败， 因为在hibernate生成表时它会初始化类中的默认构造函数， 如果类中定义了带参数的构造函数则需要显式地声明一个默认构造函数才能方便初始化实体类
 
 
 
+
+================================Spring学习笔记================================
+
+1.Spring3.0新特性:
+
+	Java5:BeanFactory接口中的新特性
+	<T> T getBean(String name, Class<T> requiredType) throws BeansException;
+	<T> T getBean(Class<T> requiredType) throws BeansException;
+	
+	IOC注解:
+	@Configuration
+	@Bean
+	@DependsOn
+	@Primary
+	@Lazy
+	@Import
+	@ImportResource
+	@Value
+	
+	当读取SpringDataSource时类中的格式一定要像此类一样:
+	D:\idea2016WK\SITC7\sitc7\src\main\java\qin\spring\spring3\_new\IOCAnnotationConfig.java
+	private @Value("#{jdbcProperties.jdbc_url}") String url;
+	注解不能写在get/set上!否则无效!
+	一样:
+	jdbcProperties则是在spring配置文件中指定的访问jdbc.properties配置文件的路径
+	必须要访问jdbc配置文件才能出现url和username等值
+	其实访问DataSource大致原理如下
+	当从jdbc配置文件中获取到url等信息的时候
+	将使用Spring的DataSourceManager来管理其中调用了DataSourceManager类中的构造函数
+	将url等信息传入了Spring数据源专用类
+	所以以往在写配置文件的时候在spring配置文件中写了一个sessionFactory就能读取到数据库信息
+	原理其实是一样的
+	首先读取到jdbc配置文件然后根据${jdbc.driverClassName}来获取配置文件中的数据
+	这样就能一样使用Spring数据源了
+	其中配置文件里其实是以Map<K, V>形式存在的
+	我们会发现
+	jdbc.url = xxx;
+	这就是用Map存储的
+
+2.Spring3.1新特性
+	支持Hibernate4
+	抽象缓存
+		可用于@Transactional注解事务的缓存
+		先来了解一下Spring Cache接口
+		方法																说明
+		----------------------------------------------------------------------------------------------------------------------------
+		String getName();													缓存的名字
+		Object getNativeCache();											得到底层使用的缓存
+		ValueWrapper get(Object key);										根据key获取一个缓存值的封装, 然后调用其get方法获取值
+		<T> T get(Object key, Class<T> type);								根据key和value的类型直接获取value
+		void put(Object key, Object value);									往缓存里放数据
+		ValueWrapper putIfAbsent(Object key, Object value);					
+		void evict(Object key);												从缓存中移除key对应的缓存
+		void clear();														清空缓存
+		
+		interface ValueWrapper {
+			Object get();													得到真实的value
+		}
+	
+	bean定义
+	@PropertySource
+	http://www.tuicool.com/articles/URBVv2U
+	XML配置文件里常见类
+	@Configuration:    
+		帮助spring来配置我的bean
+		注意:
+		使用@Bean声明的方法必须是public否则会报如下错误:
+		{
+			org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'getDataSource' must not be private or final; change the method's modifiers to continue
+		}
+		
+		
+	@ComponentScan:     
+		扫描带有@Repository, @Component, @Controller标签的bean
+	
+	@EnableTransactionManagement: 
+	@EnableCaching:               
+	@EnableWebMvc:                
+	@EnableScheduling:            
+	@EnableAsync:           
+	@EnableAspectJAutoProxy:      
+	@EnableLoadTimeWeaving:       
+	@EnableSpringConfigured:      
+	
+3.支持Hibernate4
+4.配置头文件支持<c:
+5.支持set注入
+6.支持Servlet3
+7.
+8.
+9.
+10.
+
+
+
+
+
+
+
+
+================================Spring学习笔记================================
 
 
 

@@ -1,0 +1,1551 @@
+12:53:44,378  INFO ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65312942: startup date [Sun Oct 30 12:53:44 CST 2016]; root of context hierarchy
+12:53:44,550  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+12:53:45,361  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [oracle.jdbc.properties]
+12:53:45,907  INFO DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+12:53:46,375 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@2b881b66
+12:53:46,375 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@2b881b66
+12:53:46,375 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2b881b66
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@fd9688f
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@59e1cd7f
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration yes_no -> org.hibernate.type.YesNoType@183751ea
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@65749b07
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@65749b07
+12:53:46,391 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@65749b07
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration character -> org.hibernate.type.CharacterType@64cb9c49
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration char -> org.hibernate.type.CharacterType@64cb9c49
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@64cb9c49
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@264114a7
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@264114a7
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@264114a7
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration integer -> org.hibernate.type.IntegerType@63b145f5
+12:53:46,406 DEBUG BasicTypeRegistry:146 - Adding type registration int -> org.hibernate.type.IntegerType@63b145f5
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@63b145f5
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@b500f60
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@b500f60
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@b500f60
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@7a79e5e7
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@7a79e5e7
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7a79e5e7
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@1980c2ac
+12:53:46,422 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@1980c2ac
+12:53:46,437 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1980c2ac
+12:53:46,437 DEBUG BasicTypeRegistry:146 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@729fd41a
+12:53:46,437 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@729fd41a
+12:53:46,437 DEBUG BasicTypeRegistry:146 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@20af3fce
+12:53:46,437 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@20af3fce
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration string -> org.hibernate.type.StringType@490a2cf4
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.String -> org.hibernate.type.StringType@490a2cf4
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7c2b212d
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4263515b
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration jdbc_url -> org.hibernate.type.UrlType@17b3a628
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@17b3a628
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration date -> org.hibernate.type.DateType@1dafc575
+12:53:46,453 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1dafc575
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration time -> org.hibernate.type.TimeType@63c7d0f
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@63c7d0f
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration timestamp -> org.hibernate.type.TimestampType@32aee5b4
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@32aee5b4
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@32aee5b4
+12:53:46,469 DEBUG BasicTypeRegistry:146 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@20ae6561
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration calendar -> org.hibernate.type.CalendarType@3ba0aab4
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3ba0aab4
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3ba0aab4
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2428fb6a
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration locale -> org.hibernate.type.LocaleType@3bce7311
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3bce7311
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration currency -> org.hibernate.type.CurrencyType@266b892d
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@266b892d
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@154f6189
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@154f6189
+12:53:46,484 DEBUG BasicTypeRegistry:146 - Adding type registration class -> org.hibernate.type.ClassType@150f4236
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@150f4236
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3cb058e6
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3cb058e6
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5d095e2a
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@65c6f01d
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration binary -> org.hibernate.type.BinaryType@3bcfd403
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration byte[] -> org.hibernate.type.BinaryType@3bcfd403
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration [B -> org.hibernate.type.BinaryType@3bcfd403
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@a62d3b6
+12:53:46,500 DEBUG BasicTypeRegistry:146 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@a62d3b6
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@a62d3b6
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration image -> org.hibernate.type.ImageType@6eadf829
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration characters -> org.hibernate.type.CharArrayType@29cd434b
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration char[] -> org.hibernate.type.CharArrayType@29cd434b
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration [C -> org.hibernate.type.CharArrayType@29cd434b
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6d430f4e
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6d430f4e
+12:53:46,593 DEBUG BasicTypeRegistry:146 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6d430f4e
+12:53:46,609 DEBUG BasicTypeRegistry:146 - Adding type registration text -> org.hibernate.type.TextType@3d62fd41
+12:53:46,609 DEBUG BasicTypeRegistry:146 - Adding type registration ntext -> org.hibernate.type.NTextType@2297f1ff
+12:53:46,625 DEBUG BasicTypeRegistry:146 - Adding type registration blob -> org.hibernate.type.BlobType@11e8bec9
+12:53:46,625 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@11e8bec9
+12:53:46,625 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@28ee1649
+12:53:46,640 DEBUG BasicTypeRegistry:146 - Adding type registration clob -> org.hibernate.type.ClobType@68c9b963
+12:53:46,640 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@68c9b963
+12:53:46,640 DEBUG BasicTypeRegistry:146 - Adding type registration nclob -> org.hibernate.type.NClobType@1f361707
+12:53:46,640 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1f361707
+12:53:46,656 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@46dd7463
+12:53:46,656 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ff5784f
+12:53:46,656 DEBUG BasicTypeRegistry:146 - Adding type registration serializable -> org.hibernate.type.SerializableType@3889bdca
+12:53:46,656 DEBUG BasicTypeRegistry:146 - Adding type registration object -> org.hibernate.type.ObjectType@449ff1d3
+12:53:46,656 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@449ff1d3
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7c003527
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@71a1d30a
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@37266fce
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3c7659ab
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7df9088f
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@68a124e5
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2b7d6c0d
+12:53:46,671 DEBUG BasicTypeRegistry:146 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3740dfc9
+12:53:46,734  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+12:53:46,749  INFO Version:54 - HHH000412: Hibernate Core {4.3.1.Final}
+12:53:46,765  INFO Environment:239 - HHH000206: hibernate.properties not found
+12:53:46,765  INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+12:53:46,796 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+12:53:46,796 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+12:53:46,812 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+12:53:46,827 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+12:53:46,843  INFO Configuration:2109 - HHH000044: Configuring from URL: file:/D:/idea2016WK/sitcOut/default/production/sitc7/hibernate.cfg.xml
+12:53:46,921 DEBUG DTDEntityResolver:69 - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+12:53:46,921 DEBUG DTDEntityResolver:71 - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+12:53:46,921 DEBUG DTDEntityResolver:108 - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+12:53:46,952 DEBUG Configuration:2254 - Session-factory config [null] named resource [qin/sitc7/domain/student.hbm.xml] for mapping
+12:53:46,952  INFO Configuration:757 - HHH000221: Reading mappings from resource: qin/sitc7/domain/student.hbm.xml
+12:53:46,968 DEBUG DTDEntityResolver:69 - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+12:53:46,968 DEBUG DTDEntityResolver:71 - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+12:53:46,968 DEBUG DTDEntityResolver:108 - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+12:53:47,077  INFO Configuration:2214 - HHH000041: Configured SessionFactory: null
+12:53:47,077 DEBUG Configuration:2215 - Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\software\jdk1.7x64\jre\bin, java.vm.version=24.45-b08, java.vm.vendor=Oracle Corporation, java.vendor.jdbc_url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\idea2016WK\SITC7\sitc7, java.runtime.version=1.7.0_45-b18, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.endorsed.dirs=E:\software\jdk1.7x64\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@739e3169, java.library.path=E:\software\jdk1.7x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\Administrator\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\software\jdk1.8x64\jdk\bin;E:\software\maven0339\bin;C:\Program Files\TortoiseSVN\bin;E:\software\visual_svn\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseGit\bin;D:\xampps\perl\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\atom\bin;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, java.class.path=E:\software\jetbrains\IntelliJ IDEA 2016.2.4\lib\idea_rt.jar;E:\software\jetbrains\IntelliJ IDEA 2016.2.4\plugins\junit\lib\junit-rt.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\deploy.jar;E:\software\jdk1.7x64\jre\lib\ext\access-bridge-64.jar;E:\software\jdk1.7x64\jre\lib\ext\dnsns.jar;E:\software\jdk1.7x64\jre\lib\ext\jaccess.jar;E:\software\jdk1.7x64\jre\lib\ext\localedata.jar;E:\software\jdk1.7x64\jre\lib\ext\sunec.jar;E:\software\jdk1.7x64\jre\lib\ext\sunjce_provider.jar;E:\software\jdk1.7x64\jre\lib\ext\sunmscapi.jar;E:\software\jdk1.7x64\jre\lib\ext\zipfs.jar;E:\software\jdk1.7x64\jre\lib\javaws.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\lib\jfxrt.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\management-agent.jar;E:\software\jdk1.7x64\jre\lib\plugin.jar;E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;D:\idea2016WK\sitcOut\default\test\sitc7;D:\idea2016WK\sitcOut\default\production\sitc7;E:\software\java_jars\Jar\tomcat6_7_8\7\tomcat7x64_idea\lib\jsp-api.jar;E:\software\java_jars\Jar\tomcat6_7_8\7\tomcat7x64_idea\lib\servlet-api.jar;D:\idea2016WK\libs\antlr-2.7.7.jar;D:\idea2016WK\libs\aopalliance-1.0.jar;D:\idea2016WK\libs\asm-3.3.jar;D:\idea2016WK\libs\asm-commons-3.3.jar;D:\idea2016WK\libs\asm-tree-3.3.jar;D:\idea2016WK\libs\aspectjweaver-1.8.5.jar;D:\idea2016WK\libs\commons-beanutils-1.8.0.jar;D:\idea2016WK\libs\commons-collections-3.2.1.jar;D:\idea2016WK\libs\commons-fileupload-1.3.jar;D:\idea2016WK\libs\commons-io-2.2.jar;D:\idea2016WK\libs\commons-lang-2.5.jar;D:\idea2016WK\libs\commons-logging-1.2.jar;D:\idea2016WK\libs\dom4j-1.6.1.jar;D:\idea2016WK\libs\ezmorph-1.0.6.jar;D:\idea2016WK\libs\freemarker-2.3.19.jar;D:\idea2016WK\libs\hibernate-commons-annotations-4.0.4.Final.jar;D:\idea2016WK\libs\hibernate-core-4.3.1.Final.jar;D:\idea2016WK\libs\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;D:\idea2016WK\libs\jandex-1.1.0.Final.jar;D:\idea2016WK\libs\javassist-3.18.1-GA.jar;D:\idea2016WK\libs\jboss-logging-3.1.3.GA.jar;D:\idea2016WK\libs\jboss-logging-annotations-1.2.0.Beta1.jar;D:\idea2016WK\libs\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\idea2016WK\libs\json-lib-2.4-jdk15.jar;D:\idea2016WK\libs\log4j-1.2.17.jar;D:\idea2016WK\libs\mysql-connector-java-5.1.35-bin.jar;D:\idea2016WK\libs\ognl-3.0.6.jar;D:\idea2016WK\libs\oracle-driver-ojdbc-12.1.0.2.jar;D:\idea2016WK\libs\slf4j-api-1.7.10.jar;D:\idea2016WK\libs\slf4j-log4j12-1.7.10.jar;D:\idea2016WK\libs\spring-aop-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-aspects-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-beans-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-support-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-core-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-expression-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-tomcat-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jdbc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jms-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-messaging-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-orm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-oxm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-test-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-tx-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-web-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-portlet-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-websocket-4.1.6.RELEASE.jar;D:\idea2016WK\libs\struts2-core-2.3.16.jar;D:\idea2016WK\libs\struts2-json-plugin-2.3.16.jar;D:\idea2016WK\libs\struts2-spring-plugin-2.3.16.jar;D:\idea2016WK\libs\xml-apis-1.0.b2.jar;D:\idea2016WK\libs\xwork-core-2.3.16.jar;D:\idea2016WK\hamcrest-all-1.3.jar;D:\idea2016WK\junit-4.11.jar;D:\idea2016WK\export\JavaEE7Tools.10.Final.jar, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.classLoader.application=sun.misc.Launcher$AppClassLoader@4537ef34, java.vm.specification.version=1.7, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 qin.sitc7.test.TableTest, java.home=E:\software\jdk1.7x64\jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_45, java.ext.dirs=E:\software\jdk1.7x64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;E:\software\jdk1.7x64\jre\lib\sunrsasign.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, file.separator=\, java.vendor.jdbc_url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+12:53:47,124 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+12:53:47,139 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+12:53:47,139 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+12:53:47,186 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+12:53:47,186 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+12:53:47,295 DEBUG ServiceBinding:85 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+12:53:47,295 DEBUG Configuration:1841 - Preparing to build session factory with filters : {}
+12:53:47,779 DEBUG JdbcServicesImpl:128 - Database ->
+       name : MySQL
+    version : 5.7.16-log
+      major : 5
+      minor : 7
+12:53:47,779 DEBUG JdbcServicesImpl:139 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+      major : 5
+      minor : 1
+12:53:47,779 DEBUG JdbcServicesImpl:150 - JDBC version : 4.0
+12:53:47,841  INFO Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+12:53:47,904 DEBUG Configuration:3750 - Processing hbm.xml files
+12:53:47,935 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.Student -> qin_student
+12:53:47,951 DEBUG HbmBinder:1366 - Mapped property: id -> student_id
+12:53:47,951 DEBUG HbmBinder:1366 - Mapped property: studentAddress -> studentAddress
+12:53:47,951 DEBUG HbmBinder:1366 - Mapped property: studentAddressTelephone -> studentAddressTelephone
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentBirthDate -> studentBirthDate
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentClass -> studentClass
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentEmail -> studentEmail
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentEnglishName -> studentEnglishName
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentFaculty -> studentFaculty
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentGender -> studentGender
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentGrade -> studentGrade
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentGradeSchoolTime -> studentGradeSchoolTime
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentHistoryClass -> studentHistoryClass
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentId -> studentId
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentIdCard -> studentIdCard
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentInSchoolTime -> studentInSchoolTime
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentIsInNation -> studentIsInNation
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentIsInSchool -> studentIsInSchool
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentIsMarried -> studentIsMarried
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentLengthOfSchooling -> studentLengthOfSchooling
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentMajorDirection -> studentMajorDirection
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentName -> studentName
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentNation -> studentNation
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentNoId -> studentNoId
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentOldUsingName -> studentOldUsingName
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentZipCode -> studentZipCode
+12:53:47,966 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentCampus -> qin_studentCampus
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: id -> campus_id
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentCampusName -> studentCampusName
+12:53:47,966 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentMajor -> qin_studentMajor
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: id -> major_id
+12:53:47,966 DEBUG HbmBinder:1366 - Mapped property: studentMajorName -> studentMajorName
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: studentMajorDescription -> studentMajorDescription
+12:53:47,982 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentNativePlace -> qin_studentNativePlace
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: id -> nativePlace_id
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: studentNativePlaceName -> studentNativePlaceName
+12:53:47,982 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentPoliticalStatus -> qin_studentPoliticalStatus
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: id -> politicalStatus_id
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: studentPoliticalStatusName -> studentPoliticalStatusName
+12:53:47,982 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentRecord -> qin_studentRecord
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: id -> record_id
+12:53:47,982 DEBUG HbmBinder:1366 - Mapped property: studentRecordName -> studentRecordName
+12:53:47,982 DEBUG Configuration:3780 - Process annotated classes
+12:53:47,982 DEBUG Configuration:1482 - Processing fk mappings (*ToOne and JoinedSubclass)
+12:53:47,982 DEBUG Configuration:1687 - Processing extends queue
+12:53:47,982 DEBUG Configuration:1745 - Processing extends queue
+12:53:47,982 DEBUG Configuration:1690 - Processing collection mappings
+12:53:47,982 DEBUG Configuration:1700 - Processing native query and ResultSetMapping mappings
+12:53:47,982 DEBUG Configuration:1708 - Processing association property references
+12:53:47,982 DEBUG Configuration:1730 - Creating tables' unique integer identifiers
+12:53:47,982 DEBUG Configuration:1731 - Processing foreign key constraints
+12:53:47,997 DEBUG JtaPlatformInitiator:59 - No JtaPlatform was specified, checking resolver
+12:53:47,997 DEBUG JtaPlatformResolverInitiator:50 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+12:53:47,997 DEBUG StandardJtaPlatformResolver:118 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:53:48,013 DEBUG SettingsFactory:122 - Automatic flush during beforeCompletion(): disabled
+12:53:48,013 DEBUG SettingsFactory:128 - Automatic session close at end of transaction: disabled
+12:53:48,013 DEBUG SettingsFactory:139 - JDBC batch size: 15
+12:53:48,013 DEBUG SettingsFactory:145 - JDBC batch updates for versioned data: disabled
+12:53:48,013 DEBUG SettingsFactory:155 - Scrollable result sets: enabled
+12:53:48,013 DEBUG SettingsFactory:161 - Wrap result sets: disabled
+12:53:48,013 DEBUG SettingsFactory:167 - JDBC3 getGeneratedKeys(): enabled
+12:53:48,013 DEBUG SettingsFactory:179 - multi-tenancy strategy : NONE
+12:53:48,013 DEBUG SettingsFactory:185 - Connection release mode: auto
+12:53:48,013  INFO TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+12:53:48,013 DEBUG SettingsFactory:207 - Using BatchFetchStyle : LEGACY
+12:53:48,013 DEBUG SettingsFactory:226 - Maximum outer join fetch depth: 2
+12:53:48,013 DEBUG SettingsFactory:232 - Default batch fetch size: 1
+12:53:48,013 DEBUG SettingsFactory:238 - Generate SQL with comments: disabled
+12:53:48,029 DEBUG SettingsFactory:244 - Order SQL updates by primary key: disabled
+12:53:48,029 DEBUG SettingsFactory:250 - Order SQL inserts for batching: disabled
+12:53:48,029 DEBUG SettingsFactory:258 - Default null ordering: none
+12:53:48,029 DEBUG SettingsFactory:501 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+12:53:48,029  INFO ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+12:53:48,029 DEBUG SettingsFactory:268 - Query language substitutions: {}
+12:53:48,029 DEBUG SettingsFactory:274 - JPA-QL strict compliance: disabled
+12:53:48,029 DEBUG SettingsFactory:282 - Second-level cache: enabled
+12:53:48,029 DEBUG SettingsFactory:288 - Query cache: disabled
+12:53:48,029 DEBUG RegionFactoryInitiator:105 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+12:53:48,044 DEBUG SettingsFactory:301 - Optimize cache for minimal puts: disabled
+12:53:48,044 DEBUG SettingsFactory:316 - Structured second-level cache entries: disabled
+12:53:48,044 DEBUG SettingsFactory:326 - Second-level cache direct-reference entries: disabled
+12:53:48,044 DEBUG SettingsFactory:332 - Automatic eviction of collection cache: disabled
+12:53:48,044 DEBUG SettingsFactory:340 - Statistics: disabled
+12:53:48,044 DEBUG SettingsFactory:346 - Deleted entity synthetic identifier rollback: disabled
+12:53:48,044 DEBUG SettingsFactory:373 - Default entity-mode: pojo
+12:53:48,044 DEBUG SettingsFactory:379 - Named query checking : enabled
+12:53:48,044 DEBUG SettingsFactory:385 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+12:53:48,044 DEBUG SettingsFactory:403 - Allow initialization of lazy state outside session : : disabled
+12:53:48,044 DEBUG SettingsFactory:413 - JTA Track by Thread: enabled
+12:53:48,075 DEBUG SessionFactoryImpl:228 - Building session factory
+12:53:48,107 DEBUG SessionFactoryImpl:284 - Session factory constructed with filter configurations : {}
+12:53:48,107 DEBUG SessionFactoryImpl:285 - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\software\jdk1.7x64\jre\bin, java.vm.version=24.45-b08, java.vm.vendor=Oracle Corporation, java.vendor.jdbc_url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\idea2016WK\SITC7\sitc7, java.runtime.version=1.7.0_45-b18, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.endorsed.dirs=E:\software\jdk1.7x64\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=E:\software\jdk1.7x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\Administrator\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\software\jdk1.8x64\jdk\bin;E:\software\maven0339\bin;C:\Program Files\TortoiseSVN\bin;E:\software\visual_svn\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseGit\bin;D:\xampps\perl\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\atom\bin;., hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@739e3169, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=false, user.name=Administrator, java.class.path=E:\software\jetbrains\IntelliJ IDEA 2016.2.4\lib\idea_rt.jar;E:\software\jetbrains\IntelliJ IDEA 2016.2.4\plugins\junit\lib\junit-rt.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\deploy.jar;E:\software\jdk1.7x64\jre\lib\ext\access-bridge-64.jar;E:\software\jdk1.7x64\jre\lib\ext\dnsns.jar;E:\software\jdk1.7x64\jre\lib\ext\jaccess.jar;E:\software\jdk1.7x64\jre\lib\ext\localedata.jar;E:\software\jdk1.7x64\jre\lib\ext\sunec.jar;E:\software\jdk1.7x64\jre\lib\ext\sunjce_provider.jar;E:\software\jdk1.7x64\jre\lib\ext\sunmscapi.jar;E:\software\jdk1.7x64\jre\lib\ext\zipfs.jar;E:\software\jdk1.7x64\jre\lib\javaws.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\lib\jfxrt.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\management-agent.jar;E:\software\jdk1.7x64\jre\lib\plugin.jar;E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;D:\idea2016WK\sitcOut\default\test\sitc7;D:\idea2016WK\sitcOut\default\production\sitc7;E:\software\java_jars\Jar\tomcat6_7_8\7\tomcat7x64_idea\lib\jsp-api.jar;E:\software\java_jars\Jar\tomcat6_7_8\7\tomcat7x64_idea\lib\servlet-api.jar;D:\idea2016WK\libs\antlr-2.7.7.jar;D:\idea2016WK\libs\aopalliance-1.0.jar;D:\idea2016WK\libs\asm-3.3.jar;D:\idea2016WK\libs\asm-commons-3.3.jar;D:\idea2016WK\libs\asm-tree-3.3.jar;D:\idea2016WK\libs\aspectjweaver-1.8.5.jar;D:\idea2016WK\libs\commons-beanutils-1.8.0.jar;D:\idea2016WK\libs\commons-collections-3.2.1.jar;D:\idea2016WK\libs\commons-fileupload-1.3.jar;D:\idea2016WK\libs\commons-io-2.2.jar;D:\idea2016WK\libs\commons-lang-2.5.jar;D:\idea2016WK\libs\commons-logging-1.2.jar;D:\idea2016WK\libs\dom4j-1.6.1.jar;D:\idea2016WK\libs\ezmorph-1.0.6.jar;D:\idea2016WK\libs\freemarker-2.3.19.jar;D:\idea2016WK\libs\hibernate-commons-annotations-4.0.4.Final.jar;D:\idea2016WK\libs\hibernate-core-4.3.1.Final.jar;D:\idea2016WK\libs\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;D:\idea2016WK\libs\jandex-1.1.0.Final.jar;D:\idea2016WK\libs\javassist-3.18.1-GA.jar;D:\idea2016WK\libs\jboss-logging-3.1.3.GA.jar;D:\idea2016WK\libs\jboss-logging-annotations-1.2.0.Beta1.jar;D:\idea2016WK\libs\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\idea2016WK\libs\json-lib-2.4-jdk15.jar;D:\idea2016WK\libs\log4j-1.2.17.jar;D:\idea2016WK\libs\mysql-connector-java-5.1.35-bin.jar;D:\idea2016WK\libs\ognl-3.0.6.jar;D:\idea2016WK\libs\oracle-driver-ojdbc-12.1.0.2.jar;D:\idea2016WK\libs\slf4j-api-1.7.10.jar;D:\idea2016WK\libs\slf4j-log4j12-1.7.10.jar;D:\idea2016WK\libs\spring-aop-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-aspects-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-beans-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-support-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-core-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-expression-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-tomcat-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jdbc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jms-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-messaging-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-orm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-oxm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-test-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-tx-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-web-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-portlet-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-websocket-4.1.6.RELEASE.jar;D:\idea2016WK\libs\struts2-core-2.3.16.jar;D:\idea2016WK\libs\struts2-json-plugin-2.3.16.jar;D:\idea2016WK\libs\struts2-spring-plugin-2.3.16.jar;D:\idea2016WK\libs\xml-apis-1.0.b2.jar;D:\idea2016WK\libs\xwork-core-2.3.16.jar;D:\idea2016WK\hamcrest-all-1.3.jar;D:\idea2016WK\junit-4.11.jar;D:\idea2016WK\export\JavaEE7Tools.10.Final.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, hibernate.classLoader.application=sun.misc.Launcher$AppClassLoader@4537ef34, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=E:\software\jdk1.7x64\jre, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 qin.sitc7.test.TableTest, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_45, java.ext.dirs=E:\software\jdk1.7x64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;E:\software\jdk1.7x64\jre\lib\sunrsasign.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\classes, java.vendor=Oracle Corporation, idea.junit.sm_runner=, file.separator=\, java.vendor.jdbc_url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+12:53:48,138 DEBUG JaccIntegrator:90 - Skipping JACC integration as it was not enabled
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,138 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:48,200  INFO JavaEE7Print:75 - [ini StudentPoliticalStatus class]=====================
+12:53:48,263  INFO JavaEE7Print:75 - [ini StudentRecord class]=====================
+12:53:48,263  INFO JavaEE7Print:75 - [ini StudentNativePlace class]=====================
+12:53:48,263  INFO JavaEE7Print:75 - [ini StudentCampus class]=====================
+12:53:48,309  INFO JavaEE7Print:75 - [ini StudentMajor class]=====================
+12:53:48,309  INFO JavaEE7Print:75 - [ini Student class]=====================
+12:53:48,356 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.StudentPoliticalStatus
+12:53:48,356 DEBUG AbstractEntityPersister:3675 -  Version select: select politicalStatus_id from qin_studentPoliticalStatus where politicalStatus_id =?
+12:53:48,356 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select studentpol_.politicalStatus_id, studentpol_.studentPoliticalStatusName as studentP2_4_ from qin_studentPoliticalStatus studentpol_ where studentpol_.politicalStatus_id=?
+12:53:48,356 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_studentPoliticalStatus (studentPoliticalStatusName, politicalStatus_id) values (?, ?)
+12:53:48,356 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_studentPoliticalStatus set studentPoliticalStatusName=? where politicalStatus_id=?
+12:53:48,356 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_studentPoliticalStatus where politicalStatus_id=?
+12:53:48,403 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7b83b13a]
+12:53:48,403 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,403 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,434 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,450 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,450 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [NONE]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,450 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@480592e3]
+12:53:48,450 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,450 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,450 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,450 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,450 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [READ]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,450 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13c1f28b]
+12:53:48,450 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,450 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,450 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,450 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,450 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [UPGRADE]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,450 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d542286]
+12:53:48,465 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,465 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,465 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,465 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,465 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [UPGRADE_NOWAIT]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,465 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@588722d6]
+12:53:48,465 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,465 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,465 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,465 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,465 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [UPGRADE_SKIPLOCKED]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,465 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7fa55682]
+12:53:48,465 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,465 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,465 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,465 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,465 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [FORCE]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,481 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21b63266]
+12:53:48,481 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,481 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,481 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,481 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,481 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [PESSIMISTIC_READ]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? lock in share mode
+12:53:48,481 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9a3c075]
+12:53:48,481 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,481 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,481 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,481 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,481 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [PESSIMISTIC_WRITE]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,481 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5fd54a69]
+12:53:48,481 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,481 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,481 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,481 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,497 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [PESSIMISTIC_FORCE_INCREMENT]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=? for update
+12:53:48,497 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b07e4df]
+12:53:48,497 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,497 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,497 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,497 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,497 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [OPTIMISTIC]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,497 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4aac53a8]
+12:53:48,497 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentPoliticalStatusName
+12:53:48,497 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,497 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,497 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentPoliticalStatus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentPoliticalStatus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentPoliticalStatus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentPoliticalStatus)
+          - SQL table alias mapping - studentpol0_
+          - alias suffix - 0_
+          - suffixed key columns - {politica1_4_0_}
+
+12:53:48,497 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentPoliticalStatus [OPTIMISTIC_FORCE_INCREMENT]: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,528 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.StudentPoliticalStatus: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,528 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.StudentPoliticalStatus: select studentpol0_.politicalStatus_id as politica1_4_0_, studentpol0_.studentPoliticalStatusName as studentP2_4_0_ from qin_studentPoliticalStatus studentpol0_ where studentpol0_.politicalStatus_id=?
+12:53:48,528 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.StudentRecord
+12:53:48,528 DEBUG AbstractEntityPersister:3675 -  Version select: select record_id from qin_studentRecord where record_id =?
+12:53:48,528 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select studentrec_.record_id, studentrec_.studentRecordName as studentR2_5_ from qin_studentRecord studentrec_ where studentrec_.record_id=?
+12:53:48,528 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_studentRecord (studentRecordName, record_id) values (?, ?)
+12:53:48,528 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_studentRecord set studentRecordName=? where record_id=?
+12:53:48,528 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_studentRecord where record_id=?
+12:53:48,543 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74082edf]
+12:53:48,543 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,543 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,543 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,543 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,543 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [NONE]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,543 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@43ffdee7]
+12:53:48,543 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,543 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,543 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,543 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,543 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [READ]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,543 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a6cf86c]
+12:53:48,543 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,543 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,543 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,543 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,543 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [UPGRADE]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,543 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34f0852e]
+12:53:48,543 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,559 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,559 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,559 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,559 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [UPGRADE_NOWAIT]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,559 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10047773]
+12:53:48,559 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,559 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,559 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,559 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,559 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [UPGRADE_SKIPLOCKED]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,559 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@45337587]
+12:53:48,559 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,559 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,559 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,559 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,559 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [FORCE]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,575 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6067aae]
+12:53:48,575 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,575 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,575 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,575 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,575 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [PESSIMISTIC_READ]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? lock in share mode
+12:53:48,575 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1223cebf]
+12:53:48,575 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,575 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,575 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,575 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,575 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [PESSIMISTIC_WRITE]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,575 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7699bdde]
+12:53:48,575 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,575 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,575 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,575 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,590 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [PESSIMISTIC_FORCE_INCREMENT]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=? for update
+12:53:48,590 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@22edc160]
+12:53:48,590 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,590 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,590 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,590 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,590 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [OPTIMISTIC]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,590 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a7af920]
+12:53:48,590 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentRecordName
+12:53:48,590 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,590 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,590 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentRecord)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentRecord, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentRecord)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentRecord)
+          - SQL table alias mapping - studentrec0_
+          - alias suffix - 0_
+          - suffixed key columns - {record_i1_5_0_}
+
+12:53:48,590 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentRecord [OPTIMISTIC_FORCE_INCREMENT]: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,590 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.StudentRecord: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,590 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.StudentRecord: select studentrec0_.record_id as record_i1_5_0_, studentrec0_.studentRecordName as studentR2_5_0_ from qin_studentRecord studentrec0_ where studentrec0_.record_id=?
+12:53:48,590 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.StudentCampus
+12:53:48,590 DEBUG AbstractEntityPersister:3675 -  Version select: select campus_id from qin_studentCampus where campus_id =?
+12:53:48,590 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select studentcam_.campus_id, studentcam_.studentCampusName as studentC2_1_ from qin_studentCampus studentcam_ where studentcam_.campus_id=?
+12:53:48,590 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_studentCampus (studentCampusName, campus_id) values (?, ?)
+12:53:48,590 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_studentCampus set studentCampusName=? where campus_id=?
+12:53:48,590 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_studentCampus where campus_id=?
+12:53:48,606 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68f75ce4]
+12:53:48,606 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,606 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,606 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,606 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,606 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [NONE]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,606 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5050b425]
+12:53:48,606 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,606 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,606 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,606 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,606 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [READ]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,606 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56487b42]
+12:53:48,606 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,606 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,606 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,606 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,606 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [UPGRADE]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,606 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5aae7573]
+12:53:48,606 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,606 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,606 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,621 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,621 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [UPGRADE_NOWAIT]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,621 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ee8335f]
+12:53:48,621 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,621 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,621 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,621 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,621 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [UPGRADE_SKIPLOCKED]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,621 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5006f966]
+12:53:48,621 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,621 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,621 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,621 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,621 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [FORCE]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,621 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50dcb4b5]
+12:53:48,621 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,621 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,621 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,621 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,621 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [PESSIMISTIC_READ]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? lock in share mode
+12:53:48,637 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@aa80d36]
+12:53:48,637 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,637 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,637 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,637 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,637 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [PESSIMISTIC_WRITE]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,637 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7bd835b]
+12:53:48,637 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,637 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,637 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,637 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,637 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [PESSIMISTIC_FORCE_INCREMENT]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=? for update
+12:53:48,637 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3841eb7e]
+12:53:48,637 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,637 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,637 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,637 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,637 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [OPTIMISTIC]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,637 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2823a32b]
+12:53:48,637 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentCampusName
+12:53:48,653 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,653 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,653 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentCampus)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentCampus, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentCampus)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentCampus)
+          - SQL table alias mapping - studentcam0_
+          - alias suffix - 0_
+          - suffixed key columns - {campus_i1_1_0_}
+
+12:53:48,653 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentCampus [OPTIMISTIC_FORCE_INCREMENT]: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,653 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.StudentCampus: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,653 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.StudentCampus: select studentcam0_.campus_id as campus_i1_1_0_, studentcam0_.studentCampusName as studentC2_1_0_ from qin_studentCampus studentcam0_ where studentcam0_.campus_id=?
+12:53:48,653 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.StudentNativePlace
+12:53:48,653 DEBUG AbstractEntityPersister:3675 -  Version select: select nativePlace_id from qin_studentNativePlace where nativePlace_id =?
+12:53:48,653 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select studentnat_.nativePlace_id, studentnat_.studentNativePlaceName as studentN2_3_ from qin_studentNativePlace studentnat_ where studentnat_.nativePlace_id=?
+12:53:48,653 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_studentNativePlace (studentNativePlaceName, nativePlace_id) values (?, ?)
+12:53:48,653 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_studentNativePlace set studentNativePlaceName=? where nativePlace_id=?
+12:53:48,653 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_studentNativePlace where nativePlace_id=?
+12:53:48,653 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77bdfbf0]
+12:53:48,653 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,653 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,653 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,653 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,653 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [NONE]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,668 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f4eb532]
+12:53:48,668 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,668 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,668 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,668 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,668 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [READ]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,668 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44960990]
+12:53:48,668 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,668 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,668 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,668 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,668 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [UPGRADE]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,668 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@16cf2c2f]
+12:53:48,668 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,668 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,668 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,668 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,684 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [UPGRADE_NOWAIT]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,684 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b5550a3]
+12:53:48,684 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,684 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,684 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,684 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,684 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [UPGRADE_SKIPLOCKED]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,684 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61c096da]
+12:53:48,684 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,684 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,684 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,684 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,684 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [FORCE]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,684 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f931514]
+12:53:48,684 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,684 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,684 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,684 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,699 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [PESSIMISTIC_READ]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? lock in share mode
+12:53:48,699 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49a27fbe]
+12:53:48,699 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,699 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,699 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,699 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,699 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [PESSIMISTIC_WRITE]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,699 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@556edb6b]
+12:53:48,699 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,699 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,699 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,699 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,699 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [PESSIMISTIC_FORCE_INCREMENT]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=? for update
+12:53:48,699 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@31c1a5d6]
+12:53:48,699 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,699 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,699 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,699 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,699 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [OPTIMISTIC]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,715 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e4f15db]
+12:53:48,715 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNativePlaceName
+12:53:48,715 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,715 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,715 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentNativePlace)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentNativePlace, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentNativePlace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentNativePlace)
+          - SQL table alias mapping - studentnat0_
+          - alias suffix - 0_
+          - suffixed key columns - {nativePl1_3_0_}
+
+12:53:48,715 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentNativePlace [OPTIMISTIC_FORCE_INCREMENT]: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,715 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.StudentNativePlace: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,715 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.StudentNativePlace: select studentnat0_.nativePlace_id as nativePl1_3_0_, studentnat0_.studentNativePlaceName as studentN2_3_0_ from qin_studentNativePlace studentnat0_ where studentnat0_.nativePlace_id=?
+12:53:48,715 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.StudentMajor
+12:53:48,715 DEBUG AbstractEntityPersister:3675 -  Version select: select major_id from qin_studentMajor where major_id =?
+12:53:48,715 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select studentmaj_.major_id, studentmaj_.studentMajorName as studentM2_2_, studentmaj_.studentMajorDescription as studentM3_2_ from qin_studentMajor studentmaj_ where studentmaj_.major_id=?
+12:53:48,715 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_studentMajor (studentMajorName, studentMajorDescription, major_id) values (?, ?, ?)
+12:53:48,715 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_studentMajor set studentMajorName=?, studentMajorDescription=? where major_id=?
+12:53:48,715 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_studentMajor where major_id=?
+12:53:48,715 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10ab5cd0]
+12:53:48,715 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,715 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,715 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,715 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,715 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,715 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [NONE]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,715 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1c6ad196]
+12:53:48,715 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,715 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,715 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,715 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,715 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,715 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [READ]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,715 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b2c3415]
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,731 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,731 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,731 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,731 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [UPGRADE]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,731 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@63700353]
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,731 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,731 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,731 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,731 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [UPGRADE_NOWAIT]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,731 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1aa5c9d]
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,731 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,731 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,731 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,731 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [UPGRADE_SKIPLOCKED]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,731 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65d2d6f7]
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,731 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,731 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,731 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,746 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,746 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [FORCE]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,746 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@500f1ac8]
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,746 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,746 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,746 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,746 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [PESSIMISTIC_READ]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? lock in share mode
+12:53:48,746 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@380167bf]
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,746 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,746 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,746 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,746 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [PESSIMISTIC_WRITE]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,746 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3bdbd9ea]
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,746 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,746 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,746 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,762 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,762 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [PESSIMISTIC_FORCE_INCREMENT]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=? for update
+12:53:48,762 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ad2d3a7]
+12:53:48,762 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,762 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,762 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,762 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,762 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,762 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [OPTIMISTIC]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,762 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@522f01b4]
+12:53:48,762 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorName
+12:53:48,762 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDescription
+12:53:48,762 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,762 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,762 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.StudentMajor)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.StudentMajor, querySpaceUid=<gen:0>, path=qin.sitc7.domain.StudentMajor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.StudentMajor)
+          - SQL table alias mapping - studentmaj0_
+          - alias suffix - 0_
+          - suffixed key columns - {major_id1_2_0_}
+
+12:53:48,762 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.StudentMajor [OPTIMISTIC_FORCE_INCREMENT]: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,762 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.StudentMajor: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,762 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.StudentMajor: select studentmaj0_.major_id as major_id1_2_0_, studentmaj0_.studentMajorName as studentM2_2_0_, studentmaj0_.studentMajorDescription as studentM3_2_0_ from qin_studentMajor studentmaj0_ where studentmaj0_.major_id=?
+12:53:48,762 DEBUG AbstractEntityPersister:3670 - Static SQL for entity: qin.sitc7.domain.Student
+12:53:48,762 DEBUG AbstractEntityPersister:3675 -  Version select: select student_id from qin_student where student_id =?
+12:53:48,762 DEBUG AbstractEntityPersister:3678 -  Snapshot select: select student_.student_id, student_.studentAddress as studentA2_0_, student_.studentAddressTelephone as studentA3_0_, student_.studentBirthDate as studentB4_0_, student_.studentClass as studentC5_0_, student_.studentEmail as studentE6_0_, student_.studentEnglishName as studentE7_0_, student_.studentFaculty as studentF8_0_, student_.studentGender as studentG9_0_, student_.studentGrade as student10_0_, student_.studentGradeSchoolTime as student11_0_, student_.studentHistoryClass as student12_0_, student_.studentId as student13_0_, student_.studentIdCard as student14_0_, student_.studentInSchoolTime as student15_0_, student_.studentIsInNation as student16_0_, student_.studentIsInSchool as student17_0_, student_.studentIsMarried as student18_0_, student_.studentLengthOfSchooling as student19_0_, student_.studentMajorDirection as student20_0_, student_.studentName as student21_0_, student_.studentNation as student22_0_, student_.studentNoId as student23_0_, student_.studentOldUsingName as student24_0_, student_.studentZipCode as student25_0_ from qin_student student_ where student_.student_id=?
+12:53:48,762 DEBUG AbstractEntityPersister:3681 -  Insert 0: insert into qin_student (studentAddress, studentAddressTelephone, studentBirthDate, studentClass, studentEmail, studentEnglishName, studentFaculty, studentGender, studentGrade, studentGradeSchoolTime, studentHistoryClass, studentId, studentIdCard, studentInSchoolTime, studentIsInNation, studentIsInSchool, studentIsMarried, studentLengthOfSchooling, studentMajorDirection, studentName, studentNation, studentNoId, studentOldUsingName, studentZipCode, student_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+12:53:48,762 DEBUG AbstractEntityPersister:3682 -  Update 0: update qin_student set studentAddress=?, studentAddressTelephone=?, studentBirthDate=?, studentClass=?, studentEmail=?, studentEnglishName=?, studentFaculty=?, studentGender=?, studentGrade=?, studentGradeSchoolTime=?, studentHistoryClass=?, studentId=?, studentIdCard=?, studentInSchoolTime=?, studentIsInNation=?, studentIsInSchool=?, studentIsMarried=?, studentLengthOfSchooling=?, studentMajorDirection=?, studentName=?, studentNation=?, studentNoId=?, studentOldUsingName=?, studentZipCode=? where student_id=?
+12:53:48,777 DEBUG AbstractEntityPersister:3683 -  Delete 0: delete from qin_student where student_id=?
+12:53:48,777 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3beacf19]
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,777 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,777 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,777 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,777 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,793 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [NONE]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:48,793 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51c04295]
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,793 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,809 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,809 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,809 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,809 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [READ]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:48,809 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8634bac]
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,809 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,824 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,824 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,824 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,824 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,824 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [UPGRADE]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,824 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6781a840]
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,840 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,840 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,840 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,840 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,840 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [UPGRADE_NOWAIT]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,855 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44b55b7]
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,855 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,855 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,855 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,855 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,871 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [UPGRADE_SKIPLOCKED]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,887 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33e1c1eb]
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,887 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,887 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,887 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,887 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,887 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [FORCE]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,902 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ebbd9cc]
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,902 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,902 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,902 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,902 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,918 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [PESSIMISTIC_READ]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? lock in share mode
+12:53:48,918 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9138297]
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,918 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,918 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,918 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,918 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,918 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [PESSIMISTIC_WRITE]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,933 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@125fc746]
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,933 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,933 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,933 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,933 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,933 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=? for update
+12:53:48,949 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@763f2e65]
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,949 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,949 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,949 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,949 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,949 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [OPTIMISTIC]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:48,965 DEBUG QuerySpacesImpl:177 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49f95cf6]
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddress
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentAddressTelephone
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentBirthDate
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentClass
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEmail
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentEnglishName
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentFaculty
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGender
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGrade
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentGradeSchoolTime
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentHistoryClass
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentId
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIdCard
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentInSchoolTime
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInNation
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsInSchool
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentIsMarried
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentLengthOfSchooling
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentMajorDirection
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentName
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNation
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentNoId
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentOldUsingName
+12:53:48,965 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : studentZipCode
+12:53:48,965 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+12:53:48,965 DEBUG LoadQueryJoinAndFetchProcessor:111 - processing queryspace <gen:0>
+12:53:48,965 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=qin.sitc7.domain.Student)
+    - Returns
+       - EntityReturnImpl(entity=qin.sitc7.domain.Student, querySpaceUid=<gen:0>, path=qin.sitc7.domain.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.sitc7.domain.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {student_1_0_0_}
+
+12:53:48,965 DEBUG EntityLoader:146 - Static select for entity qin.sitc7.domain.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:48,980 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity qin.sitc7.domain.Student: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:48,980 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity qin.sitc7.domain.Student: select student0_.student_id as student_1_0_0_, student0_.studentAddress as studentA2_0_0_, student0_.studentAddressTelephone as studentA3_0_0_, student0_.studentBirthDate as studentB4_0_0_, student0_.studentClass as studentC5_0_0_, student0_.studentEmail as studentE6_0_0_, student0_.studentEnglishName as studentE7_0_0_, student0_.studentFaculty as studentF8_0_0_, student0_.studentGender as studentG9_0_0_, student0_.studentGrade as student10_0_0_, student0_.studentGradeSchoolTime as student11_0_0_, student0_.studentHistoryClass as student12_0_0_, student0_.studentId as student13_0_0_, student0_.studentIdCard as student14_0_0_, student0_.studentInSchoolTime as student15_0_0_, student0_.studentIsInNation as student16_0_0_, student0_.studentIsInSchool as student17_0_0_, student0_.studentIsMarried as student18_0_0_, student0_.studentLengthOfSchooling as student19_0_0_, student0_.studentMajorDirection as student20_0_0_, student0_.studentName as student21_0_0_, student0_.studentNation as student22_0_0_, student0_.studentNoId as student23_0_0_, student0_.studentOldUsingName as student24_0_0_, student0_.studentZipCode as student25_0_0_ from qin_student student0_ where student0_.student_id=?
+12:53:49,089 DEBUG SessionFactoryRegistry:67 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@36b8ddd8
+12:53:49,089 DEBUG SessionFactoryRegistry:89 - Registering SessionFactory: 4bd4c773-74e8-4f68-8261-e9fbe390499b (<unnamed>)
+12:53:49,089 DEBUG SessionFactoryRegistry:96 - Not binding SessionFactory to JNDI, no JNDI name configured
+12:53:49,089 DEBUG SessionFactoryImpl:504 - Instantiated session factory
+12:53:49,105  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+12:53:49,105  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+12:53:49,136  INFO SchemaUpdate:205 - HHH000396: Updating schema
+12:53:49,136 DEBUG Configuration:3750 - Processing hbm.xml files
+12:53:49,136 DEBUG Configuration:3780 - Process annotated classes
+12:53:49,136 DEBUG Configuration:1482 - Processing fk mappings (*ToOne and JoinedSubclass)
+12:53:49,136 DEBUG Configuration:1687 - Processing extends queue
+12:53:49,136 DEBUG Configuration:1745 - Processing extends queue
+12:53:49,136 DEBUG Configuration:1690 - Processing collection mappings
+12:53:49,136 DEBUG Configuration:1700 - Processing native query and ResultSetMapping mappings
+12:53:49,136 DEBUG Configuration:1708 - Processing association property references
+12:53:49,136 DEBUG Configuration:1730 - Creating tables' unique integer identifiers
+12:53:49,136 DEBUG Configuration:1731 - Processing foreign key constraints
+12:53:49,152  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_student
+12:53:49,152 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,152  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentCampus
+12:53:49,152 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,167  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentMajor
+12:53:49,167 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,167  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentNativePlace
+12:53:49,167 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,167  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentPoliticalStatus
+12:53:49,167 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentRecord
+12:53:49,183 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_student
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentCampus
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentMajor
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentNativePlace
+12:53:49,183  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentPoliticalStatus
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentRecord
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_student
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentCampus
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentMajor
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentNativePlace
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentPoliticalStatus
+12:53:49,199  INFO DatabaseMetaData:147 - HHH000262: Table not found: qin_studentRecord
+12:53:49,199 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,199 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,199 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,199 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,199 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,214 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+12:53:49,214 DEBUG SchemaUpdate:226 - create table qin_student (student_id integer not null, studentAddress varchar(40), studentAddressTelephone bigint, studentBirthDate date, studentClass varchar(10), studentEmail varchar(30), studentEnglishName varchar(15), studentFaculty varchar(30), studentGender varchar(255) not null, studentGrade varchar(7), studentGradeSchoolTime date, studentHistoryClass varchar(255), studentId integer, studentIdCard bigint, studentInSchoolTime date, studentIsInNation bit, studentIsInSchool bit, studentIsMarried varchar(5), studentLengthOfSchooling varchar(5), studentMajorDirection varchar(30), studentName varchar(20), studentNation varchar(3), studentNoId integer, studentOldUsingName varchar(20), studentZipCode varchar(15), primary key (student_id)) ENGINE=InnoDB
+12:53:49,277 DEBUG SchemaUpdate:226 - create table qin_studentCampus (campus_id bigint not null, studentCampusName varchar(40), primary key (campus_id)) ENGINE=InnoDB
+12:53:49,339 DEBUG SchemaUpdate:226 - create table qin_studentMajor (major_id smallint not null, studentMajorName varchar(30), studentMajorDescription varchar(3000), primary key (major_id)) ENGINE=InnoDB
+12:53:49,386 DEBUG SchemaUpdate:226 - create table qin_studentNativePlace (nativePlace_id bigint not null, studentNativePlaceName varchar(5), primary key (nativePlace_id)) ENGINE=InnoDB
+12:53:49,433 DEBUG SchemaUpdate:226 - create table qin_studentPoliticalStatus (politicalStatus_id smallint not null, studentPoliticalStatusName varchar(5), primary key (politicalStatus_id)) ENGINE=InnoDB
+12:53:49,495 DEBUG SchemaUpdate:226 - create table qin_studentRecord (record_id smallint not null, studentRecordName varchar(5), primary key (record_id)) ENGINE=InnoDB
+12:53:49,557  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+12:53:49,557 DEBUG NamedQueryRepository:155 - Checking 0 named HQL queries
+12:53:49,557 DEBUG NamedQueryRepository:171 - Checking 0 named SQL queries
+12:53:49,573 DEBUG StatisticsInitiator:110 - Statistics initialized [enabled=false]
+12:53:49,667  INFO HibernateTransactionManager:360 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@739e3169] of Hibernate SessionFactory for HibernateTransactionManager

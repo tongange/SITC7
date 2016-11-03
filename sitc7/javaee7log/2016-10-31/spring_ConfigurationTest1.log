@@ -1,0 +1,332 @@
+19:54:25,211  INFO ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@18ff8acd: startup date [Mon Oct 31 19:54:25 CST 2016]; root of context hierarchy
+19:54:25,323  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+19:54:26,771  INFO JavaEE7Print:75 - [org.springframework.jdbc.datasource.DriverManagerDataSource@67323b17]=====================
+20:14:30,598  INFO ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@da6aaae: startup date [Thu Nov 03 20:14:30 CST 2016]; root of context hierarchy
+20:14:31,040  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+20:14:33,879  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [oracle.jdbc.properties]
+20:14:35,052  INFO DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+20:14:35,891 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@54b2a02f
+20:14:35,891 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@54b2a02f
+20:14:35,891 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@54b2a02f
+20:14:35,894 DEBUG BasicTypeRegistry:146 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4b8d1d26
+20:14:35,899 DEBUG BasicTypeRegistry:146 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@784fd2c7
+20:14:35,900 DEBUG BasicTypeRegistry:146 - Adding type registration yes_no -> org.hibernate.type.YesNoType@17d0312b
+20:14:35,907 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@475ac0e1
+20:14:35,907 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@475ac0e1
+20:14:35,907 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@475ac0e1
+20:14:35,910 DEBUG BasicTypeRegistry:146 - Adding type registration character -> org.hibernate.type.CharacterType@64016e79
+20:14:35,911 DEBUG BasicTypeRegistry:146 - Adding type registration char -> org.hibernate.type.CharacterType@64016e79
+20:14:35,911 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@64016e79
+20:14:35,919 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@1778e1ea
+20:14:35,919 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@1778e1ea
+20:14:35,919 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1778e1ea
+20:14:35,922 DEBUG BasicTypeRegistry:146 - Adding type registration integer -> org.hibernate.type.IntegerType@59f625be
+20:14:35,922 DEBUG BasicTypeRegistry:146 - Adding type registration int -> org.hibernate.type.IntegerType@59f625be
+20:14:35,922 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@59f625be
+20:14:35,927 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@70759939
+20:14:35,928 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@70759939
+20:14:35,928 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@70759939
+20:14:35,932 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@577a0b55
+20:14:35,933 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@577a0b55
+20:14:35,933 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@577a0b55
+20:14:35,938 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@2d9b7df1
+20:14:35,939 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@2d9b7df1
+20:14:35,939 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2d9b7df1
+20:14:35,945 DEBUG BasicTypeRegistry:146 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@c1599fc
+20:14:35,946 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@c1599fc
+20:14:35,949 DEBUG BasicTypeRegistry:146 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@28ee1649
+20:14:35,950 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@28ee1649
+20:14:35,953 DEBUG BasicTypeRegistry:146 - Adding type registration string -> org.hibernate.type.StringType@158037e5
+20:14:35,953 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.String -> org.hibernate.type.StringType@158037e5
+20:14:35,955 DEBUG BasicTypeRegistry:146 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@769fcd6
+20:14:35,957 DEBUG BasicTypeRegistry:146 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@74f4f397
+20:14:35,960 DEBUG BasicTypeRegistry:146 - Adding type registration url -> org.hibernate.type.UrlType@17694e84
+20:14:35,960 DEBUG BasicTypeRegistry:146 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@17694e84
+20:14:36,008 DEBUG BasicTypeRegistry:146 - Adding type registration date -> org.hibernate.type.DateType@2bb9f4fc
+20:14:36,008 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@2bb9f4fc
+20:14:36,014 DEBUG BasicTypeRegistry:146 - Adding type registration time -> org.hibernate.type.TimeType@16f5e10a
+20:14:36,014 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@16f5e10a
+20:14:36,017 DEBUG BasicTypeRegistry:146 - Adding type registration timestamp -> org.hibernate.type.TimestampType@518793d1
+20:14:36,018 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@518793d1
+20:14:36,018 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@518793d1
+20:14:36,021 DEBUG BasicTypeRegistry:146 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@59d56a94
+20:14:36,024 DEBUG BasicTypeRegistry:146 - Adding type registration calendar -> org.hibernate.type.CalendarType@7f0f144e
+20:14:36,025 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7f0f144e
+20:14:36,025 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7f0f144e
+20:14:36,027 DEBUG BasicTypeRegistry:146 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@38b86342
+20:14:36,031 DEBUG BasicTypeRegistry:146 - Adding type registration locale -> org.hibernate.type.LocaleType@5c8049eb
+20:14:36,032 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5c8049eb
+20:14:36,034 DEBUG BasicTypeRegistry:146 - Adding type registration currency -> org.hibernate.type.CurrencyType@3f624938
+20:14:36,034 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3f624938
+20:14:36,036 DEBUG BasicTypeRegistry:146 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@192a9621
+20:14:36,036 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@192a9621
+20:14:36,041 DEBUG BasicTypeRegistry:146 - Adding type registration class -> org.hibernate.type.ClassType@449ff1d3
+20:14:36,041 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@449ff1d3
+20:14:36,045 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@48f093f8
+20:14:36,045 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@48f093f8
+20:14:36,047 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3242af95
+20:14:36,049 DEBUG BasicTypeRegistry:146 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@54db08f1
+20:14:36,052 DEBUG BasicTypeRegistry:146 - Adding type registration binary -> org.hibernate.type.BinaryType@5fb90875
+20:14:36,052 DEBUG BasicTypeRegistry:146 - Adding type registration byte[] -> org.hibernate.type.BinaryType@5fb90875
+20:14:36,053 DEBUG BasicTypeRegistry:146 - Adding type registration [B -> org.hibernate.type.BinaryType@5fb90875
+20:14:36,057 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@545c1b34
+20:14:36,058 DEBUG BasicTypeRegistry:146 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@545c1b34
+20:14:36,058 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@545c1b34
+20:14:36,061 DEBUG BasicTypeRegistry:146 - Adding type registration image -> org.hibernate.type.ImageType@4c46261c
+20:14:36,065 DEBUG BasicTypeRegistry:146 - Adding type registration characters -> org.hibernate.type.CharArrayType@600962e
+20:14:36,066 DEBUG BasicTypeRegistry:146 - Adding type registration char[] -> org.hibernate.type.CharArrayType@600962e
+20:14:36,066 DEBUG BasicTypeRegistry:146 - Adding type registration [C -> org.hibernate.type.CharArrayType@600962e
+20:14:36,070 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@59df431a
+20:14:36,070 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@59df431a
+20:14:36,071 DEBUG BasicTypeRegistry:146 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@59df431a
+20:14:36,073 DEBUG BasicTypeRegistry:146 - Adding type registration text -> org.hibernate.type.TextType@e21b8e1
+20:14:36,075 DEBUG BasicTypeRegistry:146 - Adding type registration ntext -> org.hibernate.type.NTextType@2eda395d
+20:14:36,104 DEBUG BasicTypeRegistry:146 - Adding type registration blob -> org.hibernate.type.BlobType@58f70a5
+20:14:36,104 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@58f70a5
+20:14:36,105 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2f122fc6
+20:14:36,133 DEBUG BasicTypeRegistry:146 - Adding type registration clob -> org.hibernate.type.ClobType@6c2f06ab
+20:14:36,133 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6c2f06ab
+20:14:36,142 DEBUG BasicTypeRegistry:146 - Adding type registration nclob -> org.hibernate.type.NClobType@51038e5
+20:14:36,143 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@51038e5
+20:14:36,144 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@279946c4
+20:14:36,145 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1745d779
+20:14:36,149 DEBUG BasicTypeRegistry:146 - Adding type registration serializable -> org.hibernate.type.SerializableType@212f6fe9
+20:14:36,166 DEBUG BasicTypeRegistry:146 - Adding type registration object -> org.hibernate.type.ObjectType@47050cf3
+20:14:36,167 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@47050cf3
+20:14:36,168 DEBUG BasicTypeRegistry:146 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@65ce70c5
+20:14:36,169 DEBUG BasicTypeRegistry:146 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@544dc9ba
+20:14:36,169 DEBUG BasicTypeRegistry:146 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3ef6fd93
+20:14:36,170 DEBUG BasicTypeRegistry:146 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4981de30
+20:14:36,170 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6d224703
+20:14:36,171 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@65644dee
+20:14:36,171 DEBUG BasicTypeRegistry:146 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1c387843
+20:14:36,172 DEBUG BasicTypeRegistry:146 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3f5f852e
+20:14:36,279  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20:14:36,327  INFO Version:54 - HHH000412: Hibernate Core {4.3.1.Final}
+20:14:36,334  INFO Environment:239 - HHH000206: hibernate.properties not found
+20:14:36,354  INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+20:14:36,523 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+20:14:36,526 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+20:14:36,527 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+20:14:36,528 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+20:14:36,532 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+20:14:36,545 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+20:14:36,548 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+20:14:36,550 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+20:14:36,551 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+20:14:36,552 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+20:14:36,553 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+20:14:36,554 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+20:14:36,555 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+20:14:36,561 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+20:14:36,563 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+20:14:36,583  INFO Configuration:2109 - HHH000044: Configuring from URL: file:/D:/idea2016WK/sitcOut/default/production/sitc7/hibernate.cfg.xml
+20:14:36,805 DEBUG DTDEntityResolver:69 - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+20:14:36,806 DEBUG DTDEntityResolver:71 - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+20:14:36,807 DEBUG DTDEntityResolver:108 - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+20:14:36,857 DEBUG Configuration:2254 - Session-factory config [null] named resource [qin/sitc7/domain/student.hbm.xml] for mapping
+20:14:36,858  INFO Configuration:757 - HHH000221: Reading mappings from resource: qin/sitc7/domain/student.hbm.xml
+20:14:36,917 DEBUG DTDEntityResolver:69 - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+20:14:36,917 DEBUG DTDEntityResolver:71 - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+20:14:36,918 DEBUG DTDEntityResolver:108 - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+20:14:37,009 DEBUG Configuration:2254 - Session-factory config [null] named resource [qin/sitc7/domain/student-course.hbm.xml] for mapping
+20:14:37,010  INFO Configuration:757 - HHH000221: Reading mappings from resource: qin/sitc7/domain/student-course.hbm.xml
+20:14:37,016 DEBUG DTDEntityResolver:69 - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+20:14:37,016 DEBUG DTDEntityResolver:71 - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+20:14:37,017 DEBUG DTDEntityResolver:108 - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+20:14:37,065  INFO Configuration:2214 - HHH000041: Configured SessionFactory: null
+20:14:37,066 DEBUG Configuration:2215 - Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\software\jdk1.7x64\jre\bin, java.vm.version=24.45-b08, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\idea2016WK\SITC7\sitc7, java.runtime.version=1.7.0_45-b18, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.endorsed.dirs=E:\software\jdk1.7x64\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@ec09788, java.library.path=E:\software\jdk1.7x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\Administrator\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\software\jdk1.8x64\jdk\bin;E:\software\maven0339\bin;C:\Program Files\TortoiseSVN\bin;E:\software\visual_svn\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseGit\bin;D:\xampps\perl\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\atom\bin;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, java.class.path=E:\software\jetbrains\IntelliJ IDEA Ultimate Edition 163.6512.17\lib\idea_rt.jar;E:\software\jetbrains\IntelliJ IDEA Ultimate Edition 163.6512.17\plugins\junit\lib\junit-rt.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\deploy.jar;E:\software\jdk1.7x64\jre\lib\ext\access-bridge-64.jar;E:\software\jdk1.7x64\jre\lib\ext\dnsns.jar;E:\software\jdk1.7x64\jre\lib\ext\jaccess.jar;E:\software\jdk1.7x64\jre\lib\ext\localedata.jar;E:\software\jdk1.7x64\jre\lib\ext\sunec.jar;E:\software\jdk1.7x64\jre\lib\ext\sunjce_provider.jar;E:\software\jdk1.7x64\jre\lib\ext\sunmscapi.jar;E:\software\jdk1.7x64\jre\lib\ext\zipfs.jar;E:\software\jdk1.7x64\jre\lib\javaws.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\lib\jfxrt.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\management-agent.jar;E:\software\jdk1.7x64\jre\lib\plugin.jar;E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;D:\idea2016WK\sitcOut\default\test\sitc7;D:\idea2016WK\sitcOut\default\production\sitc7;D:\idea2016WK\libs\antlr-2.7.7.jar;D:\idea2016WK\libs\aopalliance-1.0.jar;D:\idea2016WK\libs\asm-3.3.jar;D:\idea2016WK\libs\asm-commons-3.3.jar;D:\idea2016WK\libs\asm-tree-3.3.jar;D:\idea2016WK\libs\aspectjweaver-1.8.5.jar;D:\idea2016WK\libs\commons-beanutils-1.8.0.jar;D:\idea2016WK\libs\commons-collections-3.2.1.jar;D:\idea2016WK\libs\commons-fileupload-1.3.jar;D:\idea2016WK\libs\commons-io-2.2.jar;D:\idea2016WK\libs\commons-lang-2.5.jar;D:\idea2016WK\libs\commons-logging-1.2.jar;D:\idea2016WK\libs\dom4j-1.6.1.jar;D:\idea2016WK\libs\ezmorph-1.0.6.jar;D:\idea2016WK\libs\freemarker-2.3.19.jar;D:\idea2016WK\libs\hibernate-commons-annotations-4.0.4.Final.jar;D:\idea2016WK\libs\hibernate-core-4.3.1.Final.jar;D:\idea2016WK\libs\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;D:\idea2016WK\libs\jandex-1.1.0.Final.jar;D:\idea2016WK\libs\javassist-3.18.1-GA.jar;D:\idea2016WK\libs\jboss-logging-3.1.3.GA.jar;D:\idea2016WK\libs\jboss-logging-annotations-1.2.0.Beta1.jar;D:\idea2016WK\libs\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\idea2016WK\libs\json-lib-2.4-jdk15.jar;D:\idea2016WK\libs\log4j-1.2.17.jar;D:\idea2016WK\libs\mysql-connector-java-5.1.35-bin.jar;D:\idea2016WK\libs\ognl-3.0.6.jar;D:\idea2016WK\libs\oracle-driver-ojdbc-12.1.0.2.jar;D:\idea2016WK\libs\slf4j-api-1.7.10.jar;D:\idea2016WK\libs\slf4j-log4j12-1.7.10.jar;D:\idea2016WK\libs\spring-aop-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-aspects-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-beans-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-context-support-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-core-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-expression-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-instrument-tomcat-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jdbc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-jms-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-messaging-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-orm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-oxm-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-test-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-tx-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-web-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-webmvc-portlet-4.1.6.RELEASE.jar;D:\idea2016WK\libs\spring-websocket-4.1.6.RELEASE.jar;D:\idea2016WK\libs\struts2-core-2.3.16.jar;D:\idea2016WK\libs\struts2-json-plugin-2.3.16.jar;D:\idea2016WK\libs\struts2-spring-plugin-2.3.16.jar;D:\idea2016WK\libs\xml-apis-1.0.b2.jar;D:\idea2016WK\libs\xwork-core-2.3.16.jar;D:\idea2016WK\hamcrest-all-1.3.jar;D:\idea2016WK\junit-4.11.jar;D:\idea2016WK\export\JavaEE7Tools.10.Final.jar;E:\software\java_jars\Jar\idea_jars\webProjectLibs\jstl\jstl-1.2.jar, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.classLoader.application=sun.misc.Launcher$AppClassLoader@4537ef34, java.vm.specification.version=1.7, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 qin.sitc7.test.TableTest,makeTable, java.home=E:\software\jdk1.7x64\jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_45, java.ext.dirs=E:\software\jdk1.7x64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=E:\software\jdk1.7x64\jre\lib\resources.jar;E:\software\jdk1.7x64\jre\lib\rt.jar;E:\software\jdk1.7x64\jre\lib\sunrsasign.jar;E:\software\jdk1.7x64\jre\lib\jsse.jar;E:\software\jdk1.7x64\jre\lib\jce.jar;E:\software\jdk1.7x64\jre\lib\charsets.jar;E:\software\jdk1.7x64\jre\lib\jfr.jar;E:\software\jdk1.7x64\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+20:14:37,186 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+20:14:37,212 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+20:14:37,232 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+20:14:37,378 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+20:14:37,379 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+20:14:37,742 DEBUG ServiceBinding:85 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+20:14:37,744 DEBUG Configuration:1841 - Preparing to build session factory with filters : {}
+20:14:38,953 DEBUG JdbcServicesImpl:128 - Database ->
+       name : MySQL
+    version : 5.7.16-log
+      major : 5
+      minor : 7
+20:14:38,953 DEBUG JdbcServicesImpl:139 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+      major : 5
+      minor : 1
+20:14:38,953 DEBUG JdbcServicesImpl:150 - JDBC version : 4.0
+20:14:39,129  INFO Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+20:14:39,474 DEBUG Configuration:3750 - Processing hbm.xml files
+20:14:39,563 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.Student -> qin_student
+20:14:39,803 DEBUG HbmBinder:1366 - Mapped property: id -> student_id
+20:14:39,847 DEBUG HbmBinder:1366 - Mapped property: studentAddress -> studentAddress
+20:14:39,849 DEBUG HbmBinder:1366 - Mapped property: studentAddressTelephone -> studentAddressTelephone
+20:14:39,850 DEBUG HbmBinder:1366 - Mapped property: studentBirthDate -> studentBirthDate
+20:14:39,851 DEBUG HbmBinder:1366 - Mapped property: studentClass -> studentClass
+20:14:39,852 DEBUG HbmBinder:1366 - Mapped property: studentEmail -> studentEmail
+20:14:39,853 DEBUG HbmBinder:1366 - Mapped property: studentEnglishName -> studentEnglishName
+20:14:39,854 DEBUG HbmBinder:1366 - Mapped property: studentFaculty -> studentFaculty
+20:14:39,857 DEBUG HbmBinder:1366 - Mapped property: studentGender -> studentGender
+20:14:39,858 DEBUG HbmBinder:1366 - Mapped property: studentGrade -> studentGrade
+20:14:39,859 DEBUG HbmBinder:1366 - Mapped property: studentGradeSchoolTime -> studentGradeSchoolTime
+20:14:39,860 DEBUG HbmBinder:1366 - Mapped property: studentHistoryClass -> studentHistoryClass
+20:14:39,861 DEBUG HbmBinder:1366 - Mapped property: studentId -> studentId
+20:14:39,863 DEBUG HbmBinder:1366 - Mapped property: studentIdCard -> studentIdCard
+20:14:39,863 DEBUG HbmBinder:1366 - Mapped property: studentInSchoolTime -> studentInSchoolTime
+20:14:39,863 DEBUG HbmBinder:1366 - Mapped property: studentIsInNation -> studentIsInNation
+20:14:39,864 DEBUG HbmBinder:1366 - Mapped property: studentIsInSchool -> studentIsInSchool
+20:14:39,864 DEBUG HbmBinder:1366 - Mapped property: studentIsMarried -> studentIsMarried
+20:14:39,865 DEBUG HbmBinder:1366 - Mapped property: studentLengthOfSchooling -> studentLengthOfSchooling
+20:14:39,865 DEBUG HbmBinder:1366 - Mapped property: studentMajorDirection -> studentMajorDirection
+20:14:39,866 DEBUG HbmBinder:1366 - Mapped property: studentName -> studentName
+20:14:39,866 DEBUG HbmBinder:1366 - Mapped property: studentNation -> studentNation
+20:14:39,867 DEBUG HbmBinder:1366 - Mapped property: studentNoId -> studentNoId
+20:14:39,868 DEBUG HbmBinder:1366 - Mapped property: studentOldUsingName -> studentOldUsingName
+20:14:39,868 DEBUG HbmBinder:1366 - Mapped property: studentZipCode -> studentZipCode
+20:14:39,870 DEBUG HbmBinder:992 - Mapping class join: qin.sitc7.domain.Student -> qin_join_studentCampus
+20:14:39,876 DEBUG HbmBinder:1366 - Mapped property: studentCampus -> join_studentCampus2
+20:14:39,876 DEBUG HbmBinder:992 - Mapping class join: qin.sitc7.domain.Student -> qin_join_studentMajor
+20:14:39,877 DEBUG HbmBinder:1366 - Mapped property: studentMajor -> join_studentMajor2
+20:14:39,877 DEBUG HbmBinder:992 - Mapping class join: qin.sitc7.domain.Student -> qin_join_stuPoliticalStatus
+20:14:39,878 DEBUG HbmBinder:1366 - Mapped property: studentPoliticalStatus -> join_stuPoliticalStatus2
+20:14:39,878 DEBUG HbmBinder:992 - Mapping class join: qin.sitc7.domain.Student -> qin_join_studentRecord
+20:14:39,879 DEBUG HbmBinder:1366 - Mapped property: studentRecord -> join_studentRecord2
+20:14:39,879 DEBUG HbmBinder:992 - Mapping class join: qin.sitc7.domain.Student -> qin_join_nativePlace
+20:14:39,880 DEBUG HbmBinder:1366 - Mapped property: studentNativePlace -> join_nativePlace2
+20:14:39,880 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentCampus -> qin_studentCampus
+20:14:39,881 DEBUG HbmBinder:1366 - Mapped property: id -> campus_id
+20:14:39,882 DEBUG HbmBinder:1366 - Mapped property: studentCampusName -> studentCampusName
+20:14:39,886 DEBUG HbmBinder:1366 - Mapped property: studentSet
+20:14:39,887 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentMajor -> qin_studentMajor
+20:14:39,888 DEBUG HbmBinder:1366 - Mapped property: id -> major_id
+20:14:39,888 DEBUG HbmBinder:1366 - Mapped property: studentMajorName -> studentMajorName
+20:14:39,888 DEBUG HbmBinder:1366 - Mapped property: studentMajorDescription -> studentMajorDescription
+20:14:39,889 DEBUG HbmBinder:1366 - Mapped property: studentSet
+20:14:39,889 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentNativePlace -> qin_studentNativePlace
+20:14:39,890 DEBUG HbmBinder:1366 - Mapped property: id -> nativePlace_id
+20:14:39,890 DEBUG HbmBinder:1366 - Mapped property: studentNativePlaceName -> studentNativePlaceName
+20:14:39,891 DEBUG HbmBinder:1366 - Mapped property: studentSet
+20:14:39,891 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentPoliticalStatus -> qin_studentPoliticalStatus
+20:14:39,892 DEBUG HbmBinder:1366 - Mapped property: id -> politicalStatus_id
+20:14:39,892 DEBUG HbmBinder:1366 - Mapped property: studentPoliticalStatusName -> studentPoliticalStatusName
+20:14:39,893 DEBUG HbmBinder:1366 - Mapped property: studentSet
+20:14:39,893 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentRecord -> qin_studentRecord
+20:14:39,894 DEBUG HbmBinder:1366 - Mapped property: id -> record_id
+20:14:39,895 DEBUG HbmBinder:1366 - Mapped property: studentRecordName -> studentRecordName
+20:14:39,895 DEBUG HbmBinder:1366 - Mapped property: studentSet
+20:14:39,896 DEBUG HbmBinder:354 - Mapping class: qin.sitc7.domain.StudentCourse -> qin_studentCourse
+20:14:39,898 DEBUG HbmBinder:1366 - Mapped property: id -> student_course_id
+20:14:39,899 DEBUG HbmBinder:1366 - Mapped property: courseId -> courseId
+20:14:39,899 DEBUG HbmBinder:1366 - Mapped property: courseCode -> courseCode
+20:14:39,900 DEBUG HbmBinder:1366 - Mapped property: courseName -> courseName
+20:14:39,900 DEBUG HbmBinder:1366 - Mapped property: courseClassify -> courseClassify
+20:14:39,901 DEBUG HbmBinder:1366 - Mapped property: courseCredit -> courseCredit
+20:14:39,901 DEBUG HbmBinder:1366 - Mapped property: courseFinalExam -> courseFinalExam
+20:14:39,901 DEBUG HbmBinder:1366 - Mapped property: courseResit -> courseResit
+20:14:39,902 DEBUG HbmBinder:1366 - Mapped property: courseFinalScore -> courseFinalScore
+20:14:39,903 DEBUG HbmBinder:1523 - Mapping collection: qin.sitc7.domain.StudentCourse.courseTerm -> qin_studentScore_term
+20:14:39,905 DEBUG HbmBinder:1366 - Mapped property: courseTerm
+20:14:39,906 DEBUG Configuration:3780 - Process annotated classes
+20:14:39,911 DEBUG Configuration:1482 - Processing fk mappings (*ToOne and JoinedSubclass)
+20:14:39,913 DEBUG Configuration:1687 - Processing extends queue
+20:14:39,914 DEBUG Configuration:1745 - Processing extends queue
+20:14:39,914 DEBUG Configuration:1690 - Processing collection mappings
+20:14:39,915 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentCampus.studentSet
+20:14:39,916 DEBUG HbmBinder:2563 - Mapping collection: qin.sitc7.domain.StudentCampus.studentSet -> qin_student
+20:14:39,917 DEBUG CollectionSecondPass:84 - Mapped collection key: set_student_campus, one-to-many: qin.sitc7.domain.Student
+20:14:39,917 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentMajor.studentSet
+20:14:39,917 DEBUG HbmBinder:2563 - Mapping collection: qin.sitc7.domain.StudentMajor.studentSet -> qin_student
+20:14:39,918 DEBUG CollectionSecondPass:84 - Mapped collection key: set_student_major, one-to-many: qin.sitc7.domain.Student
+20:14:39,918 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentNativePlace.studentSet
+20:14:39,919 DEBUG HbmBinder:2563 - Mapping collection: qin.sitc7.domain.StudentNativePlace.studentSet -> qin_student
+20:14:39,919 DEBUG CollectionSecondPass:84 - Mapped collection key: set_student_ativePlace, one-to-many: qin.sitc7.domain.Student
+20:14:39,919 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentPoliticalStatus.studentSet
+20:14:39,920 DEBUG HbmBinder:2563 - Mapping collection: qin.sitc7.domain.StudentPoliticalStatus.studentSet -> qin_student
+20:14:39,920 DEBUG CollectionSecondPass:84 - Mapped collection key: set_student_politicalStatus, one-to-many: qin.sitc7.domain.Student
+20:14:39,921 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentRecord.studentSet
+20:14:39,921 DEBUG HbmBinder:2563 - Mapping collection: qin.sitc7.domain.StudentRecord.studentSet -> qin_student
+20:14:39,921 DEBUG CollectionSecondPass:84 - Mapped collection key: set_student_record, one-to-many: qin.sitc7.domain.Student
+20:14:39,922 DEBUG CollectionSecondPass:67 - Second pass for collection: qin.sitc7.domain.StudentCourse.courseTerm
+20:14:39,923 DEBUG CollectionSecondPass:84 - Mapped collection key: key_stu_courseTerm, index: index_stu_courseTerm, element: element_stu_courseTerm
+20:14:39,923 DEBUG Configuration:1700 - Processing native query and ResultSetMapping mappings
+20:14:39,924 DEBUG Configuration:1708 - Processing association property references
+20:14:39,924 DEBUG Configuration:1730 - Creating tables' unique integer identifiers
+20:14:39,924 DEBUG Configuration:1731 - Processing foreign key constraints
+20:14:39,925 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.Student
+20:14:39,925 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentNativePlace
+20:14:39,925 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.Student
+20:14:39,926 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentPoliticalStatus
+20:14:39,926 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.Student
+20:14:39,927 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentCampus
+20:14:39,927 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.Student
+20:14:39,927 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentMajor
+20:14:39,928 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.Student
+20:14:39,928 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentRecord
+20:14:39,928 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentCampus
+20:14:39,929 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentMajor
+20:14:39,929 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentNativePlace
+20:14:39,930 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentPoliticalStatus
+20:14:39,930 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentRecord
+20:14:39,931 DEBUG Configuration:1802 - Resolving reference to class: qin.sitc7.domain.StudentCourse
+20:14:39,997  WARN ClassPathXmlApplicationContext:487 - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to instantiate custom type: org.hibernate.type.EnumType
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at qin.sitc7.test.TableTest.makeTable(TableTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.hibernate.MappingException: Unable to instantiate custom type: org.hibernate.type.EnumType
+	at org.hibernate.type.TypeFactory.custom(TypeFactory.java:218)
+	at org.hibernate.type.TypeFactory.custom(TypeFactory.java:204)
+	at org.hibernate.type.TypeFactory.byClass(TypeFactory.java:103)
+	at org.hibernate.type.TypeResolver.heuristicType(TypeResolver.java:130)
+	at org.hibernate.mapping.SimpleValue.getType(SimpleValue.java:327)
+	at org.hibernate.mapping.SimpleValue.isValid(SimpleValue.java:310)
+	at org.hibernate.mapping.Property.isValid(Property.java:241)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:496)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:270)
+	at org.hibernate.cfg.Configuration.validate(Configuration.java:1358)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1849)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 34 more
+Caused by: java.lang.ClassCastException: class qin.sitc7.domain.StudentCourse
+	at java.lang.Class.asSubclass(Class.java:3126)
+	at org.hibernate.type.EnumType.setParameterValues(EnumType.java:241)
+	at org.hibernate.type.TypeFactory.injectParameters(TypeFactory.java:131)
+	at org.hibernate.type.TypeFactory.custom(TypeFactory.java:214)
+	... 50 more
