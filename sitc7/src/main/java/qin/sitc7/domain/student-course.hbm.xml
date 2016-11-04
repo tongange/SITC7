@@ -6,8 +6,8 @@
 <hibernate-mapping package="qin.sitc7.domain" auto-import="true" default-lazy="false">
 
     <class name="StudentCourse" table="qin_studentCourse">
-        <id name="id" column="student_course_id">
-            <generator class="uuid.hex"/>
+        <id name="id" column="student_course_id" length="40">
+            <generator class="assigned"/>
         </id>
 
         <property name="courseId" length="5" type="integer"></property>

@@ -31,6 +31,18 @@ public class StudentCourse implements SuperEntity7<String>
         this.courseResit = courseResit;
         this.courseFinalScore = courseFinalScore;
     }
+
+    public StudentCourse(Integer courseId, String courseCode, String courseName, CourseType courseClassify, Double courseCredit, Double courseFinalExam, Double courseResit, Double courseFinalScore)
+    {
+        this.courseId = courseId;
+        this.courseCode = courseCode;
+        this.courseName = courseName;
+        this.courseClassify = courseClassify;
+        this.courseCredit = courseCredit;
+        this.courseFinalExam = courseFinalExam;
+        this.courseResit = courseResit;
+        this.courseFinalScore = courseFinalScore;
+    }
     //endregion
 
     //region id

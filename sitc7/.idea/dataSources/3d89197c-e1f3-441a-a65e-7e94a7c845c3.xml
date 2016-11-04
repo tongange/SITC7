@@ -1,347 +1,354 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="mysql">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
-    <schema id="1" name="javaee7oa">
-      <visible>1</visible>
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="javaee7oa">
+      <Current>1</Current>
+      <Visible>1</Visible>
     </schema>
-    <schema id="2" name="david"/>
-    <schema id="3" name="information_schema"/>
-    <schema id="4" name="javaee7"/>
-    <schema id="5" name="javaee8"/>
-    <schema id="6" name="mysql"/>
-    <schema id="7" name="performance_schema"/>
-    <schema id="8" name="sakila"/>
-    <schema id="9" name="sys"/>
-    <schema id="10" name="world"/>
-    <table id="11" parent="1" name="qin_join_nativeplace"/>
-    <table id="12" parent="1" name="qin_join_studentcampus"/>
-    <table id="13" parent="1" name="qin_join_studentmajor"/>
-    <table id="14" parent="1" name="qin_join_studentrecord"/>
-    <table id="15" parent="1" name="qin_join_stupoliticalstatus"/>
-    <table id="16" parent="1" name="qin_student"/>
-    <table id="17" parent="1" name="qin_studentcampus"/>
-    <table id="18" parent="1" name="qin_studentmajor"/>
-    <table id="19" parent="1" name="qin_studentnativeplace"/>
-    <table id="20" parent="1" name="qin_studentpoliticalstatus"/>
-    <table id="21" parent="1" name="qin_studentrecord"/>
-    <column id="22" parent="11" name="join_nativePlace1">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <schema id="3" parent="1" name="david"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="javaee7"/>
+    <schema id="6" parent="1" name="javaee8"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="sakila"/>
+    <schema id="10" parent="1" name="sys"/>
+    <schema id="11" parent="1" name="world"/>
+    <table id="12" parent="2" name="qin_join_nativeplace"/>
+    <table id="13" parent="2" name="qin_join_studentcampus"/>
+    <table id="14" parent="2" name="qin_join_studentmajor"/>
+    <table id="15" parent="2" name="qin_join_studentrecord"/>
+    <table id="16" parent="2" name="qin_join_stupoliticalstatus"/>
+    <table id="17" parent="2" name="qin_student"/>
+    <table id="18" parent="2" name="qin_studentcampus"/>
+    <table id="19" parent="2" name="qin_studentmajor"/>
+    <table id="20" parent="2" name="qin_studentnativeplace"/>
+    <table id="21" parent="2" name="qin_studentpoliticalstatus"/>
+    <table id="22" parent="2" name="qin_studentrecord"/>
+    <column id="23" parent="12" name="join_nativePlace1">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="23" parent="11" name="join_nativePlace2">
-      <data-type>bigint(20)|0</data-type>
+    <column id="24" parent="12" name="join_nativePlace2">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <index id="24" parent="11" name="fk_join_nativePlace2">
-      <columns>join_nativePlace2</columns>
-      <desc-columns></desc-columns>
+    <index id="25" parent="12" name="fk_join_nativePlace2">
+      <ColNames>join_nativePlace2</ColNames>
     </index>
-    <key id="25" parent="11" name="PRIMARY">
-      <columns>join_nativePlace1</columns>
-      <primary>1</primary>
+    <key id="26" parent="12" name="PRIMARY">
+      <ColNames>join_nativePlace1</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="26" parent="11" name="fk_join_nativePlace1">
-      <columns>join_nativePlace1</columns>
-      <ref-key>~.qin_student.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="27" parent="12" name="fk_join_nativePlace1">
+      <ColNames>join_nativePlace1</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="27" parent="11" name="fk_join_nativePlace2">
-      <columns>join_nativePlace2</columns>
-      <ref-key>~.qin_studentnativeplace.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="28" parent="12" name="fk_join_nativePlace2">
+      <ColNames>join_nativePlace2</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentnativeplace</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>nativePlace_id</RefColNames>
     </foreign-key>
-    <column id="28" parent="12" name="join_studentCampus1">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <column id="29" parent="13" name="join_studentCampus1">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="29" parent="12" name="join_studentCampus2">
-      <data-type>bigint(20)|0</data-type>
+    <column id="30" parent="13" name="join_studentCampus2">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <index id="30" parent="12" name="fk_join_studentCampus2">
-      <columns>join_studentCampus2</columns>
-      <desc-columns></desc-columns>
+    <index id="31" parent="13" name="fk_join_studentCampus2">
+      <ColNames>join_studentCampus2</ColNames>
     </index>
-    <key id="31" parent="12" name="PRIMARY">
-      <columns>join_studentCampus1</columns>
-      <primary>1</primary>
+    <key id="32" parent="13" name="PRIMARY">
+      <ColNames>join_studentCampus1</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="32" parent="12" name="fk_join_studentCampus1">
-      <columns>join_studentCampus1</columns>
-      <ref-key>~.qin_student.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="33" parent="13" name="fk_join_studentCampus1">
+      <ColNames>join_studentCampus1</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="33" parent="12" name="fk_join_studentCampus2">
-      <columns>join_studentCampus2</columns>
-      <ref-key>~.qin_studentcampus.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="34" parent="13" name="fk_join_studentCampus2">
+      <ColNames>join_studentCampus2</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentcampus</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>campus_id</RefColNames>
     </foreign-key>
-    <column id="34" parent="13" name="join_studentMajor1">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <column id="35" parent="14" name="join_studentMajor1">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="35" parent="13" name="join_studentMajor2">
-      <data-type>smallint(6)|0</data-type>
+    <column id="36" parent="14" name="join_studentMajor2">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <key id="36" parent="13" name="PRIMARY">
-      <columns>join_studentMajor1</columns>
-      <primary>1</primary>
+    <key id="37" parent="14" name="PRIMARY">
+      <ColNames>join_studentMajor1</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="37" parent="13" name="fk_join_studentMajor1">
-      <columns>join_studentMajor1</columns>
-      <ref-key>~.qin_student.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="38" parent="14" name="fk_join_studentMajor1">
+      <ColNames>join_studentMajor1</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <column id="38" parent="14" name="join_studentRecord1">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <column id="39" parent="15" name="join_studentRecord1">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="39" parent="14" name="join_studentRecord2">
-      <data-type>smallint(6)|0</data-type>
+    <column id="40" parent="15" name="join_studentRecord2">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <key id="40" parent="14" name="PRIMARY">
-      <columns>join_studentRecord1</columns>
-      <primary>1</primary>
+    <key id="41" parent="15" name="PRIMARY">
+      <ColNames>join_studentRecord1</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="41" parent="14" name="fk_join_studentRecord1">
-      <columns>join_studentRecord1</columns>
-      <ref-key>~.qin_student.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="42" parent="15" name="fk_join_studentRecord1">
+      <ColNames>join_studentRecord1</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <column id="42" parent="15" name="join_stuPoliticalStatus1">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <column id="43" parent="16" name="join_stuPoliticalStatus1">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="43" parent="15" name="join_stuPoliticalStatus2">
-      <data-type>smallint(6)|0</data-type>
+    <column id="44" parent="16" name="join_stuPoliticalStatus2">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <index id="44" parent="15" name="fk_join_studentMajor2">
-      <columns>join_stuPoliticalStatus2</columns>
-      <desc-columns></desc-columns>
+    <index id="45" parent="16" name="fk_join_studentMajor2">
+      <ColNames>join_stuPoliticalStatus2</ColNames>
     </index>
-    <key id="45" parent="15" name="PRIMARY">
-      <columns>join_stuPoliticalStatus1</columns>
-      <primary>1</primary>
+    <key id="46" parent="16" name="PRIMARY">
+      <ColNames>join_stuPoliticalStatus1</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="46" parent="15" name="fk_join_stuPoliticalStatus1">
-      <columns>join_stuPoliticalStatus1</columns>
-      <ref-key>~.qin_student.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="47" parent="16" name="fk_join_stuPoliticalStatus1">
+      <ColNames>join_stuPoliticalStatus1</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_student</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="47" parent="15" name="fk_join_studentMajor2">
-      <columns>join_stuPoliticalStatus2</columns>
-      <ref-key>~.qin_studentpoliticalstatus.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="48" parent="16" name="fk_join_studentMajor2">
+      <ColNames>join_stuPoliticalStatus2</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentpoliticalstatus</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>politicalStatus_id</RefColNames>
     </foreign-key>
-    <column id="48" parent="16" name="student_id">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <column id="49" parent="17" name="student_id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="49" parent="16" name="studentAddress">
-      <data-type>varchar(40)|0</data-type>
+    <column id="50" parent="17" name="studentAddress">
+      <DataType>varchar(40)|0</DataType>
     </column>
-    <column id="50" parent="16" name="studentAddressTelephone">
-      <data-type>bigint(20)|0</data-type>
+    <column id="51" parent="17" name="studentAddressTelephone">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <column id="51" parent="16" name="studentBirthDate">
-      <data-type>date|0</data-type>
+    <column id="52" parent="17" name="studentBirthDate">
+      <DataType>date|0</DataType>
     </column>
-    <column id="52" parent="16" name="studentClass">
-      <data-type>varchar(10)|0</data-type>
+    <column id="53" parent="17" name="studentClass">
+      <DataType>varchar(10)|0</DataType>
     </column>
-    <column id="53" parent="16" name="studentEmail">
-      <data-type>varchar(30)|0</data-type>
+    <column id="54" parent="17" name="studentEmail">
+      <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="54" parent="16" name="studentEnglishName">
-      <data-type>varchar(15)|0</data-type>
+    <column id="55" parent="17" name="studentEnglishName">
+      <DataType>varchar(15)|0</DataType>
     </column>
-    <column id="55" parent="16" name="studentFaculty">
-      <data-type>varchar(30)|0</data-type>
+    <column id="56" parent="17" name="studentFaculty">
+      <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="56" parent="16" name="studentGender">
-      <mandatory>1</mandatory>
-      <data-type>varchar(255)|0</data-type>
+    <column id="57" parent="17" name="studentGender">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="57" parent="16" name="studentGrade">
-      <data-type>varchar(7)|0</data-type>
+    <column id="58" parent="17" name="studentGrade">
+      <DataType>varchar(7)|0</DataType>
     </column>
-    <column id="58" parent="16" name="studentGradeSchoolTime">
-      <data-type>date|0</data-type>
+    <column id="59" parent="17" name="studentGradeSchoolTime">
+      <DataType>date|0</DataType>
     </column>
-    <column id="59" parent="16" name="studentHistoryClass">
-      <data-type>varchar(255)|0</data-type>
+    <column id="60" parent="17" name="studentHistoryClass">
+      <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="60" parent="16" name="studentId">
-      <data-type>int(11)|0</data-type>
+    <column id="61" parent="17" name="studentId">
+      <DataType>int(11)|0</DataType>
     </column>
-    <column id="61" parent="16" name="studentIdCard">
-      <data-type>bigint(20)|0</data-type>
+    <column id="62" parent="17" name="studentIdCard">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <column id="62" parent="16" name="studentInSchoolTime">
-      <data-type>date|0</data-type>
+    <column id="63" parent="17" name="studentInSchoolTime">
+      <DataType>date|0</DataType>
     </column>
-    <column id="63" parent="16" name="studentIsInNation">
-      <data-type>bit(1)|0</data-type>
+    <column id="64" parent="17" name="studentIsInNation">
+      <DataType>bit(1)|0</DataType>
     </column>
-    <column id="64" parent="16" name="studentIsInSchool">
-      <data-type>bit(1)|0</data-type>
+    <column id="65" parent="17" name="studentIsInSchool">
+      <DataType>bit(1)|0</DataType>
     </column>
-    <column id="65" parent="16" name="studentIsMarried">
-      <data-type>varchar(5)|0</data-type>
+    <column id="66" parent="17" name="studentIsMarried">
+      <DataType>varchar(5)|0</DataType>
     </column>
-    <column id="66" parent="16" name="studentLengthOfSchooling">
-      <data-type>varchar(5)|0</data-type>
+    <column id="67" parent="17" name="studentLengthOfSchooling">
+      <DataType>varchar(5)|0</DataType>
     </column>
-    <column id="67" parent="16" name="studentMajorDirection">
-      <data-type>varchar(30)|0</data-type>
+    <column id="68" parent="17" name="studentMajorDirection">
+      <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="68" parent="16" name="studentName">
-      <data-type>varchar(20)|0</data-type>
+    <column id="69" parent="17" name="studentName">
+      <DataType>varchar(20)|0</DataType>
     </column>
-    <column id="69" parent="16" name="studentNation">
-      <data-type>varchar(3)|0</data-type>
+    <column id="70" parent="17" name="studentNation">
+      <DataType>varchar(3)|0</DataType>
     </column>
-    <column id="70" parent="16" name="studentNoId">
-      <data-type>int(11)|0</data-type>
+    <column id="71" parent="17" name="studentNoId">
+      <DataType>int(11)|0</DataType>
     </column>
-    <column id="71" parent="16" name="studentOldUsingName">
-      <data-type>varchar(20)|0</data-type>
+    <column id="72" parent="17" name="studentOldUsingName">
+      <DataType>varchar(20)|0</DataType>
     </column>
-    <column id="72" parent="16" name="studentZipCode">
-      <data-type>varchar(15)|0</data-type>
+    <column id="73" parent="17" name="studentZipCode">
+      <DataType>varchar(15)|0</DataType>
     </column>
-    <column id="73" parent="16" name="set_student_campus">
-      <data-type>bigint(20)|0</data-type>
+    <column id="74" parent="17" name="set_student_campus">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <column id="74" parent="16" name="set_student_major">
-      <data-type>smallint(6)|0</data-type>
+    <column id="75" parent="17" name="set_student_major">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <column id="75" parent="16" name="set_student_ativePlace">
-      <data-type>bigint(20)|0</data-type>
+    <column id="76" parent="17" name="set_student_ativePlace">
+      <DataType>bigint(20)|0</DataType>
     </column>
-    <column id="76" parent="16" name="set_student_politicalStatus">
-      <data-type>smallint(6)|0</data-type>
+    <column id="77" parent="17" name="set_student_politicalStatus">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <column id="77" parent="16" name="set_student_record">
-      <data-type>smallint(6)|0</data-type>
+    <column id="78" parent="17" name="set_student_record">
+      <DataType>smallint(6)|0</DataType>
     </column>
-    <index id="78" parent="16" name="fk_set_student_ativePlace">
-      <columns>set_student_ativePlace</columns>
-      <desc-columns></desc-columns>
+    <index id="79" parent="17" name="fk_set_student_ativePlace">
+      <ColNames>set_student_ativePlace</ColNames>
     </index>
-    <index id="79" parent="16" name="fk_set_student_campus">
-      <columns>set_student_campus</columns>
-      <desc-columns></desc-columns>
+    <index id="80" parent="17" name="fk_set_student_campus">
+      <ColNames>set_student_campus</ColNames>
     </index>
-    <index id="80" parent="16" name="fk_set_student_major">
-      <columns>set_student_major</columns>
-      <desc-columns></desc-columns>
+    <index id="81" parent="17" name="fk_set_student_major">
+      <ColNames>set_student_major</ColNames>
     </index>
-    <index id="81" parent="16" name="fk_set_student_record">
-      <columns>set_student_record</columns>
-      <desc-columns></desc-columns>
+    <index id="82" parent="17" name="fk_set_student_record">
+      <ColNames>set_student_record</ColNames>
     </index>
-    <index id="82" parent="16" name="fk_set_stu_politicalStatus">
-      <columns>set_student_politicalStatus</columns>
-      <desc-columns></desc-columns>
+    <index id="83" parent="17" name="fk_set_stu_politicalStatus">
+      <ColNames>set_student_politicalStatus</ColNames>
     </index>
-    <key id="83" parent="16" name="PRIMARY">
-      <columns>student_id</columns>
-      <primary>1</primary>
+    <key id="84" parent="17" name="PRIMARY">
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
     </key>
-    <foreign-key id="84" parent="16" name="fk_set_student_campus">
-      <columns>set_student_campus</columns>
-      <ref-key>~.qin_studentcampus.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="85" parent="17" name="fk_set_stu_politicalStatus">
+      <ColNames>set_student_politicalStatus</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentpoliticalstatus</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>politicalStatus_id</RefColNames>
     </foreign-key>
-    <foreign-key id="85" parent="16" name="fk_set_student_major">
-      <columns>set_student_major</columns>
-      <ref-key>~.qin_studentmajor.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="86" parent="17" name="fk_set_student_ativePlace">
+      <ColNames>set_student_ativePlace</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentnativeplace</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>nativePlace_id</RefColNames>
     </foreign-key>
-    <foreign-key id="86" parent="16" name="fk_set_student_ativePlace">
-      <columns>set_student_ativePlace</columns>
-      <ref-key>~.qin_studentnativeplace.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="87" parent="17" name="fk_set_student_campus">
+      <ColNames>set_student_campus</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentcampus</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>campus_id</RefColNames>
     </foreign-key>
-    <foreign-key id="87" parent="16" name="fk_set_stu_politicalStatus">
-      <columns>set_student_politicalStatus</columns>
-      <ref-key>~.qin_studentpoliticalstatus.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="88" parent="17" name="fk_set_student_major">
+      <ColNames>set_student_major</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentmajor</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>major_id</RefColNames>
     </foreign-key>
-    <foreign-key id="88" parent="16" name="fk_set_student_record">
-      <columns>set_student_record</columns>
-      <ref-key>~.qin_studentrecord.PRIMARY</ref-key>
-      <cascade-update-rule>restrict</cascade-update-rule>
-      <cascade-delete-rule>restrict</cascade-delete-rule>
+    <foreign-key id="89" parent="17" name="fk_set_student_record">
+      <ColNames>set_student_record</ColNames>
+      <RefSchemaName>javaee7oa</RefSchemaName>
+      <RefTableName>qin_studentrecord</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>record_id</RefColNames>
     </foreign-key>
-    <column id="89" parent="17" name="campus_id">
-      <mandatory>1</mandatory>
-      <data-type>bigint(20)|0</data-type>
+    <column id="90" parent="18" name="campus_id">
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="90" parent="17" name="studentCampusName">
-      <data-type>varchar(40)|0</data-type>
+    <column id="91" parent="18" name="studentCampusName">
+      <DataType>varchar(40)|0</DataType>
     </column>
-    <key id="91" parent="17" name="PRIMARY">
-      <columns>campus_id</columns>
-      <primary>1</primary>
+    <key id="92" parent="18" name="PRIMARY">
+      <ColNames>campus_id</ColNames>
+      <Primary>1</Primary>
     </key>
-    <column id="92" parent="18" name="major_id">
-      <mandatory>1</mandatory>
-      <data-type>smallint(6)|0</data-type>
+    <column id="93" parent="19" name="major_id">
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="93" parent="18" name="studentMajorName">
-      <data-type>varchar(30)|0</data-type>
+    <column id="94" parent="19" name="studentMajorName">
+      <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="94" parent="18" name="studentMajorDescription">
-      <data-type>varchar(3000)|0</data-type>
+    <column id="95" parent="19" name="studentMajorDescription">
+      <DataType>varchar(3000)|0</DataType>
     </column>
-    <key id="95" parent="18" name="PRIMARY">
-      <columns>major_id</columns>
-      <primary>1</primary>
+    <key id="96" parent="19" name="PRIMARY">
+      <ColNames>major_id</ColNames>
+      <Primary>1</Primary>
     </key>
-    <column id="96" parent="19" name="nativePlace_id">
-      <mandatory>1</mandatory>
-      <data-type>bigint(20)|0</data-type>
+    <column id="97" parent="20" name="nativePlace_id">
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="97" parent="19" name="studentNativePlaceName">
-      <data-type>varchar(5)|0</data-type>
+    <column id="98" parent="20" name="studentNativePlaceName">
+      <DataType>varchar(5)|0</DataType>
     </column>
-    <key id="98" parent="19" name="PRIMARY">
-      <columns>nativePlace_id</columns>
-      <primary>1</primary>
+    <key id="99" parent="20" name="PRIMARY">
+      <ColNames>nativePlace_id</ColNames>
+      <Primary>1</Primary>
     </key>
-    <column id="99" parent="20" name="politicalStatus_id">
-      <mandatory>1</mandatory>
-      <data-type>smallint(6)|0</data-type>
+    <column id="100" parent="21" name="politicalStatus_id">
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="100" parent="20" name="studentPoliticalStatusName">
-      <data-type>varchar(5)|0</data-type>
+    <column id="101" parent="21" name="studentPoliticalStatusName">
+      <DataType>varchar(5)|0</DataType>
     </column>
-    <key id="101" parent="20" name="PRIMARY">
-      <columns>politicalStatus_id</columns>
-      <primary>1</primary>
+    <key id="102" parent="21" name="PRIMARY">
+      <ColNames>politicalStatus_id</ColNames>
+      <Primary>1</Primary>
     </key>
-    <column id="102" parent="21" name="record_id">
-      <mandatory>1</mandatory>
-      <data-type>smallint(6)|0</data-type>
+    <column id="103" parent="22" name="record_id">
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="103" parent="21" name="studentRecordName">
-      <data-type>varchar(5)|0</data-type>
+    <column id="104" parent="22" name="studentRecordName">
+      <DataType>varchar(5)|0</DataType>
     </column>
-    <key id="104" parent="21" name="PRIMARY">
-      <columns>record_id</columns>
-      <primary>1</primary>
+    <key id="105" parent="22" name="PRIMARY">
+      <ColNames>record_id</ColNames>
+      <Primary>1</Primary>
     </key>
   </database-model>
 </dataSource>
