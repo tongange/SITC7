@@ -4,3 +4,17 @@
 <script type="text/javascript" src="<c:url value="/jsLib/jQuery/jquery-2.2.4/jquery.js"/> "></script>
 <script type="text/javascript" src="<c:url value="/jsLib/bootstrap/js/bootstrap.js"/> "></script>
 <link rel="stylesheet" href="<c:url value="/jsLib/bootstrap/css/bootstrap.css" /> ">
+
+<style type="text/css">
+    #container
+    {
+        font-family: 微软雅黑;
+    }
+
+    .css
+    {
+        font-size: 9pt;
+        line-height: 22px;
+        color: #666666;
+    }
+</style>
