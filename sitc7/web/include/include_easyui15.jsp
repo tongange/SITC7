@@ -7,3 +7,7 @@
     <link rel="stylesheet" href="<c:url value="/jsLib/easyui15/themes/default/easyui.css"/> ">
     <link rel="stylesheet" href="<c:url value="/css/qin.main.css"/> ">
 </head>
+
+<script type="text/javascript">
+    var basePath = "/sitc/";
+</script>

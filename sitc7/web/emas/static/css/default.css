@@ -175,7 +175,7 @@ table.searchForm
     border-width: 1px;
     border-color: #006CB2;
     vertical-align: middle;
-    text-align: center;
+    text-align: center
     font-style: normal;
     font-size: 10pt;
     width: 100%;
@@ -558,4 +558,9 @@ table.settingTable td
     color: #ff0044;
     text-decoration: none;
     letter-spacing: 0;
+}
+
+.selectAuto
+{
+    behavior: expression(window.select_fix_ie(this));
 }

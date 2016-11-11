@@ -113,7 +113,7 @@
             <generator class="increment"></generator>
         </id>
 
-        <property name="studentNativePlaceName" length="5"></property>
+        <property name="studentNativePlaceName" length="10"></property>
 
         <set name="studentSet" table="qin_set_nativePlace">
             <key column="set_student_ativePlace" foreign-key="fk_set_student_ativePlace"></key>

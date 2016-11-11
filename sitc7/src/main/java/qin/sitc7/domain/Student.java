@@ -14,8 +14,18 @@ public class Student implements SuperEntity7<Integer>
         SitcPrint.print7.prints("ini Student class");
     }
 
-    public Student(Integer studentId, String studentName, String studentEnglishName, String studentGrade, String studentFaculty, StudentMajor studentMajor, String studentMajorDirection, StudentRecord studentRecord, StudentCampus studentCampus, String studentLengthOfSchooling, boolean studentIsInSchool, boolean studentIsInNation, Integer studentNoId, String studentClass, String studentHistoryClass, Date studentInSchoolTime, Date studentGradeSchoolTime, String studentOldUsingName,
-                   String studentNation, StudentPoliticalStatus studentPoliticalStatus, Date studentBirthDate, Long studentIdCard, StudentNativePlace studentNativePlace, String studentIsMarried, StudentGender studentGender, String studentEmail, String studentAddress, Long studentAddressTelephone, String studentZipCode)
+    public Student(
+              Integer studentId, String studentName, String studentEnglishName,
+              String studentGrade, String studentFaculty, StudentMajor studentMajor,
+              String studentMajorDirection, StudentRecord studentRecord, StudentCampus studentCampus,
+              String studentLengthOfSchooling, boolean studentIsInSchool, boolean studentIsInNation,
+              Integer studentNoId, String studentClass, String studentHistoryClass,
+              Date studentInSchoolTime, Date studentGradeSchoolTime, String studentOldUsingName,
+              String studentNation, StudentPoliticalStatus studentPoliticalStatus, Date studentBirthDate,
+              Long studentIdCard, StudentNativePlace studentNativePlace,
+              String studentIsMarried, StudentGender studentGender, String studentEmail,
+              String studentAddress, String studentAddressTelephone, String studentZipCode
+    )
     {
         this.studentId = studentId;
         this.studentName = studentName;
@@ -443,14 +453,14 @@ public class Student implements SuperEntity7<Integer>
     //endregion
 
     //region studentAddressTelephone
-    private Long studentAddressTelephone;
+    private String studentAddressTelephone;
 
-    public Long getStudentAddressTelephone()
+    public String getStudentAddressTelephone()
     {
         return studentAddressTelephone;
     }
 
-    public void setStudentAddressTelephone(Long studentAddressTelephone)
+    public void setStudentAddressTelephone(String studentAddressTelephone)
     {
         this.studentAddressTelephone = studentAddressTelephone;
     }
@@ -504,6 +514,20 @@ public class Student implements SuperEntity7<Integer>
         return sb.toString();
     }
 
+    //endregion
+
+    //region fromHTMLPage
+    private String h5_stuId;
+
+    public String getH5_stuId()
+    {
+        return h5_stuId;
+    }
+
+    public void setH5_stuId(String h5_stuId)
+    {
+        this.h5_stuId = h5_stuId;
+    }
     //endregion
 }
 

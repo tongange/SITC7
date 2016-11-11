@@ -9,8 +9,8 @@ import qin.sitc7.domain.Student;
 import qin.sitc7.service.StudentService;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.List;
 
 @Controller
 @Scope("prototype")
@@ -49,18 +49,42 @@ public class StdDetailController extends JavaEE7BaseController
     //endregion
 
     //region showStudent
-    @RequestMapping(value = "showStudent") public void showStudent(HttpServletResponse response) {
-        List<Student> studentList = null;
+    @RequestMapping(value = "showStudent") public ModelAndView showStudent(HttpServletRequest request, String studentName) {
+        request.setAttribute("studentName", studentName);
+
+        return new ModelAndView("/stdDetail/showStudent");
+    }
+    //endregion
+
+    //region loginStudent
+    /** loginStudent */
+    @RequestMapping(value = "/loginStudent") public void loginStudent(HttpServletResponse response, Student student) {
+        String stuName = "";
+        String stuEmail = "";
+        Integer stuId = 0;
+        String h5_stuId = "";
+        String msg = "";
 
         try {
-            studentList = studentService.findAll();
+            stuName = student.getStudentName();
+            stuEmail = student.getStudentEmail();
+            h5_stuId = student.getH5_stuId();
 
-                      actionFlag = true;
-                  } catch(Exception ex) {
-                      actionFlag =false;
-                  } finally {
-                      doCheck(actionFlag);
-                  }
+            //put in database to search
+            if (h5_stuId.matches("[0-9]*") && stuEmail.contains("@")) {
+                msg = studentService
+                        .login(stuName.trim(), stuEmail.trim(), Integer.valueOf(h5_stuId.trim()));
+                returnJson(msg + stuName, response);
+            } else {
+                returnJson("stuId neccessary be number!", response);
+            }
+
+            actionFlag = true;
+        } catch(Exception ex) {
+            actionFlag = false;
+        } finally {
+            doCheck(actionFlag);
+        }
     }
     //endregion
 }
